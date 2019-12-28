@@ -1,0 +1,12 @@
+.App {
+  text-align: left;
+  color: #292929;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    grid-template-columns: 0fr 1fr 0fr;
+  }
+}
