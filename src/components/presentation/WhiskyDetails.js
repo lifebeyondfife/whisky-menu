@@ -2,18 +2,13 @@ import React from 'react';
 import './WhiskyDetails.css';
 
 class WhiskyDetails extends React.Component {
-  constructor({whisky, show}) {
-    super({whisky, show});
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick() {
-    this.props.show.click();
+  constructor({whisky, isToggleOn}) {
+    super({whisky, isToggleOn});
   }
 
   render() {
-    const details = this.props.show.isToggleOn ? (null) : (
-      <table className="WhiskyDetails" visible={this.props.show.isToggleOn}>
+    const details = this.props.isToggleOn ? (null) : (
+      <table className="WhiskyDetails" visible={this.props.isToggleOn}>
         <tbody>
           <tr>
             <td>Location:</td>
@@ -37,7 +32,6 @@ class WhiskyDetails extends React.Component {
 
     return (
       <div>
-        <button onClick={this.handleClick}>{this.props.show.isToggleOn ? 'v' : '^'}</button>
         {details}
       </div>
     );
