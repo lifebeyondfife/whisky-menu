@@ -7,19 +7,19 @@ class Whisky extends React.Component {
   constructor({filterText, whiskys}) {
     super({filterText, whiskys});
     this.state = this.props.whiskys.reduce((map, obj) => {
-      map[obj.name] = {
-        click: () => this.handleClick(obj.name),
+      map[obj.id] = {
+        click: () => this.handleClick(obj.id),
         isToggleOn: true
       }
       return map;
     }, {});
   }
 
-  handleClick(whiskyName) {
+  handleClick(id) {
     this.setState(prevState => ({
-      [whiskyName]: {
-        click: prevState[whiskyName].click,
-        isToggleOn: !prevState[whiskyName].isToggleOn,
+      [id]: {
+        click: prevState[id].click,
+        isToggleOn: !prevState[id].isToggleOn,
       }
     }));
   };
@@ -34,11 +34,12 @@ class Whisky extends React.Component {
         return [whisky.name, whisky.state, '' + whisky.age, whisky.location.region, whisky.location.country].
           some(f => this.matchesText(this.props.filterText.toLowerCase(), f));
       }).
+      sort((a, b) => (a.name > b.name) - (a.name < b.name)).
       map(whisky => {
       return (
-        <div key={whisky.name} className="container">
-            <WhiskyName whisky={whisky} show={this.state[whisky.name]}/>
-            <WhiskyDetails whisky={whisky} isToggleOn={this.state[whisky.name].isToggleOn}/>
+        <div key={whisky.id} className="container">
+            <WhiskyName whisky={whisky} show={this.state[whisky.id]}/>
+            <WhiskyDetails whisky={whisky} isToggleOn={this.state[whisky.id].isToggleOn}/>
         </div>
       );
     });
