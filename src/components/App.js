@@ -4,22 +4,31 @@ import Whisky from './container/Whisky';
 import Title from './container/Title';
 import './App.css';
 
-const whiskys = [
-  { 'name': 'Aberlour 18', 'age': 18, 'state': 'Opened', 'price': 95, 'location': {'country': 'Scotland', 'region': 'Speyside'}},
-  { 'name': 'GlenDronach 12', 'age': 12, 'state': 'Opened', 'price': 45, 'location': {'country': 'Scotland', 'region': 'Highland'}},
-  { 'name': 'GlenDronach 18', 'age': 18, 'state': 'Opened', 'price': 115, 'location': {'country': 'Scotland', 'region': 'Highland'}},
-  { 'name': 'Yamazaki 12', 'age': 12, 'state': 'Opened', 'price': 100, 'location': {'country': 'Japan'},},
-];
+class App extends React.Component {
+  constructor({whiskys}) {
+    super({whiskys});
+    this.state = {
+      filterText: ''
+    };
 
+    this.handleFilterTextChange = this.handleFilterTextChange.bind(this);
+  }
 
-function App() {
-  return (
-    <div className="App">
-      <Title />
-      <Filter />
-      <Whisky whiskys={whiskys} />
-    </div>
-  );
+  handleFilterTextChange(filterText) {
+    this.setState({
+      filterText: filterText
+    });
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <Title />
+        <Filter filterText={this.state.filterText} onFilterTextChange={this.handleFilterTextChange} />
+        <Whisky filterText={this.state.filterText} whiskys={this.props.whiskys} />
+      </div>
+    );
+  }
 }
 
 export default App;
