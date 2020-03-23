@@ -24,16 +24,12 @@ class Whisky extends React.Component {
     }));
   };
 
-  /*
-  - put the trigger for the handleClick invocation in the WhiskyName component; make the button the trigger
-  - nice to have: tidy up table layout for WhiskyDetails
-  */
   render() {
     let whiskyNames = this.props.whiskys.map(whisky => {
       return (
         <div key={whisky.name} className="container">
-            <WhiskyName whisky={whisky} />
-            <WhiskyDetails whisky={whisky} show={this.state[whisky.name]}/>
+            <WhiskyName whisky={whisky} show={this.state[whisky.name]}/>
+            <WhiskyDetails whisky={whisky} isToggleOn={this.state[whisky.name].isToggleOn}/>
         </div>
       );
     });
