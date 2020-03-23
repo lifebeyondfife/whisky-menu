@@ -10,7 +10,6 @@ class App extends React.Component {
     this.state = {
       filterText: ''
     };
-
     this.handleFilterTextChange = this.handleFilterTextChange.bind(this);
   }
 
