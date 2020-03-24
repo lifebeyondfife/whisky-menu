@@ -6,14 +6,19 @@ on:
 
 jobs:
   build:
+    name: Build Whisky Menu
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
+    - name: Install packages
+      run: npm install
     - name: Build the bundled resource files
       run: npm run build
 
   deploy:
+    name: Deploy Whisky Menu
+    needs: build
     runs-on: ubuntu-latest
     steps:
     - uses: jakejarvis/s3-sync-action@v0.5.1
