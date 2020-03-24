@@ -15,10 +15,6 @@ class WhiskyDetails extends React.Component {
             <td>{`${this.props.whisky.age} years old`}</td>
           </tr>
           <tr>
-            <td>Price:</td>
-            <td>{`£${this.props.whisky.price}`}</td>
-          </tr>
-          <tr>
             <td>State:</td>
             <td>{this.props.whisky.state}</td>
           </tr>
