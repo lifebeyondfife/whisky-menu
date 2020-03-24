@@ -2,10 +2,6 @@ import React from 'react';
 import './WhiskyDetails.css';
 
 class WhiskyDetails extends React.Component {
-  constructor({whisky, isToggleOn}) {
-    super({whisky, isToggleOn});
-  }
-
   render() {
     const details = this.props.isToggleOn ? (null) : (
       <table className="WhiskyDetails" visible={this.props.isToggleOn}>

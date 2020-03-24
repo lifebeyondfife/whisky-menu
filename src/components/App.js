@@ -5,10 +5,10 @@ import Title from './container/Title';
 import './App.css';
 
 class App extends React.Component {
-  constructor({whiskys}) {
-    super({whiskys});
+  constructor(props) {
+    super(props);
     this.state = {
-      filterText: ''
+      filterText: new URLSearchParams(new URL(window.location).search).get('filterText') || ''
     };
     this.handleFilterTextChange = this.handleFilterTextChange.bind(this);
   }

@@ -4,8 +4,8 @@ import WhiskyName from '../presentation/WhiskyName';
 import WhiskyDetails from '../presentation/WhiskyDetails';
 
 class Whisky extends React.Component {
-  constructor({filterText, whiskys}) {
-    super({filterText, whiskys});
+  constructor(props) {
+    super(props);
     this.state = this.props.whiskys.reduce((map, obj) => {
       map[obj.id] = {
         click: () => this.handleClick(obj.id),
@@ -29,13 +29,13 @@ class Whisky extends React.Component {
   }
 
   render() {
-    const whiskyNames = this.props.whiskys.
-      filter(whisky => {
-        return [whisky.name, whisky.state, '' + whisky.age, whisky.location.region, whisky.location.country].
-          some(f => this.matchesText(this.props.filterText.toLowerCase(), f));
-      }).
-      sort((a, b) => (a.name > b.name) - (a.name < b.name)).
-      map(whisky => {
+    const whiskyNames = this.props.whiskys
+      .filter(whisky => {
+        return [whisky.name, whisky.state, '' + whisky.age, whisky.location.region, whisky.location.country]
+          .some(f => this.matchesText(this.props.filterText.toLowerCase(), f));
+      })
+      .sort((a, b) => (a.name > b.name) - (a.name < b.name))
+      .map(whisky => {
       return (
         <div key={whisky.id} className="container">
             <WhiskyName whisky={whisky} show={this.state[whisky.id]}/>

@@ -2,8 +2,8 @@ import React from 'react';
 import './Filter.css';
 
 class Filter extends React.Component {
-  constructor({filterText, onFilterTextChange}) {
-    super({filterText, onFilterTextChange});
+  constructor(props) {
+    super(props);
     this.handleFilterTextChange = this.handleFilterTextChange.bind(this);
   }
 
@@ -14,8 +14,8 @@ class Filter extends React.Component {
   render() {
     return (
       <div className="Filter">
-        <form>
-          <input type="text" placeholder="Filter..." value={this.props.filterText} onChange={this.handleFilterTextChange} />
+        <form method="GET" action="/">
+          <input type="text" name="filterText" placeholder="Filter..." value={this.props.filterText} onChange={this.handleFilterTextChange} />
         </form>
       </div>
     );
