@@ -1,21 +1,21 @@
 import React from 'react';
 import Filter from './container/Filter';
 import Whisky from './container/Whisky';
-import Title from './container/Title';
+import Title from './presentation/Title';
 import './App.css';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      filterText: new URLSearchParams(new URL(window.location).search).get('filterText') || ''
+      category: new URLSearchParams(new URL(window.location).search).get('category') || 'location'
     };
-    this.handleFilterTextChange = this.handleFilterTextChange.bind(this);
+    this.handleCategoryChange = this.handleCategoryChange.bind(this);
   }
 
-  handleFilterTextChange(filterText) {
+  handleCategoryChange(category) {
     this.setState({
-      filterText: filterText
+      category: category
     });
   }
 
@@ -23,8 +23,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <Title />
-        <Filter filterText={this.state.filterText} onFilterTextChange={this.handleFilterTextChange} />
-        <Whisky filterText={this.state.filterText} whiskys={this.props.whiskys} />
+        <Filter category={this.state.category} onCategoryChange={this.handleCategoryChange} />
+        <Whisky category={this.state.category} whiskys={this.props.whiskys} />
       </div>
     );
   }

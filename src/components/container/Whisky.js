@@ -1,53 +1,90 @@
 import React from 'react';
 import './Whisky.css';
-import WhiskyName from '../presentation/WhiskyName';
-import WhiskyDetails from '../presentation/WhiskyDetails';
+import WhiskySection from './WhiskySection';
 
 class Whisky extends React.Component {
   constructor(props) {
     super(props);
-    this.state = this.props.whiskys.reduce((map, obj) => {
-      map[obj.id] = {
-        click: () => this.handleClick(obj.id),
-        isToggleOn: true
-      }
-      return map;
-    }, {});
+    this.categorisationFunction = {
+      "location": this.whiskysByLocation,
+      "age": this.whiskysByAge,
+      "closed": this.whiskysToBeOpened,
+    }
   }
 
-  handleClick(id) {
-    this.setState(prevState => ({
-      [id]: {
-        click: prevState[id].click,
-        isToggleOn: !prevState[id].isToggleOn,
-      }
-    }));
-  };
+  whiskysByLocation(whiskys) {
+    const categorisedWhiskys = {}
 
-  matchesText(filter, field) {
-    return field && field.toLowerCase().indexOf(filter.toLowerCase()) !== -1;
+    whiskys
+      .filter(whisky => whisky.state === "Opened")
+      .forEach(element => {
+        if (!categorisedWhiskys[element.location]) {
+          categorisedWhiskys[element.location] = [element];
+        } else {
+          categorisedWhiskys[element.location].push(element);
+        }
+      });
+
+    return categorisedWhiskys;
+  }
+
+  whiskysByAge(whiskys) {
+    const categorisedWhiskys = {}
+
+    whiskys
+      .filter(whisky => whisky.state === "Opened")
+      .forEach(element => {
+        if (element.age <= 3) {
+          if (!categorisedWhiskys["Unspecified"]) {
+            categorisedWhiskys["Unspecified"] = [element];
+          } else {
+            categorisedWhiskys["Unspecified"].push(element);
+          }
+        } else {
+          const category = `${element.age} years old`;
+          if (!categorisedWhiskys[category]) {
+            categorisedWhiskys[category] = [element];
+          } else {
+            categorisedWhiskys[category].push(element);
+          }
+        }
+      });
+
+    return categorisedWhiskys;
+  }
+
+  whiskysToBeOpened(whiskys) {
+    return {'': whiskys.filter(whisky => whisky.state === 'Closed')};
+  }
+
+  getWhiskySections(whiskys, filter) {
+    const collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
+    return Object.keys(whiskys)
+      .filter(key => filter(whiskys[key][0]))
+      .sort(collator.compare)
+      .map(key => ( 
+        <WhiskySection key={key} whiskys={whiskys[key]} category={key} />
+      )
+    );
   }
 
   render() {
-    const whiskyNames = this.props.whiskys
-      .filter(whisky => {
-        return [whisky.name, whisky.state, '' + whisky.age, whisky.location.region, whisky.location.country]
-          .some(f => this.matchesText(this.props.filterText.toLowerCase(), f));
-      })
-      .sort((a, b) => (a.name > b.name) - (a.name < b.name))
-      .map(whisky => {
+    const categorisedWhiskys = this.categorisationFunction[this.props.category](this.props.whiskys);
+
+    if (this.props.category === "location") {
       return (
-        <div key={whisky.id} className="container">
-            <WhiskyName whisky={whisky} show={this.state[whisky.id]}/>
-            <WhiskyDetails whisky={whisky} isToggleOn={this.state[whisky.id].isToggleOn}/>
+        <div className="Whisky">
+          {this.getWhiskySections(categorisedWhiskys, x => x.isScotch)}
+          {this.getWhiskySections(categorisedWhiskys, x => !x.isScotch)}
         </div>
       );
-    });
-    return (
-      <div className="Whisky">
-        {whiskyNames}
-      </div>
-    );
+    } else {
+      return (
+        <div className="Whisky">
+          {this.getWhiskySections(categorisedWhiskys, x => true)}
+        </div>
+      )
+    }
   }
 }
 

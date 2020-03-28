@@ -8,15 +8,11 @@ class WhiskyDetails extends React.Component {
         <tbody>
           <tr>
             <td>Location:</td>
-            <td>{`${this.props.whisky.location.region || this.props.whisky.location.country}`}</td>
+            <td>{`${this.props.whisky.location}`}</td>
           </tr>
           <tr>
             <td>Age:</td>
             <td>{`${this.props.whisky.age} years old`}</td>
-          </tr>
-          <tr>
-            <td>State:</td>
-            <td>{this.props.whisky.state}</td>
           </tr>
         </tbody>
       </table>
