@@ -6,9 +6,6 @@ import WhiskyDetails from '../presentation/WhiskyDetails';
 class WhiskySection extends React.Component {
   constructor(props) {
     super(props);
-    if (!this.props.whiskys) {
-        return;
-    }
     this.state = this.props.whiskys.reduce((map, obj) => {
       map[obj.id] = {
         click: () => this.handleClick(obj.id),
@@ -28,9 +25,6 @@ class WhiskySection extends React.Component {
   };
 
   render() {
-    if (!this.props.whiskys) {
-        return (<div></div>);
-    }
     const whiskyNames = this.props.whiskys
       .sort((a, b) => (a.name > b.name) - (a.name < b.name))
       .map(whisky => {

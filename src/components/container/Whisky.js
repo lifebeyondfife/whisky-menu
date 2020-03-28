@@ -57,54 +57,34 @@ class Whisky extends React.Component {
     return {'': whiskys.filter(whisky => whisky.state === 'Closed')};
   }
 
-  matchesText(filter, field) {
-    return field && field.toLowerCase().indexOf(filter.toLowerCase()) !== -1;
+  getWhiskySections(whiskys, filter) {
+    const collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
+    return Object.keys(whiskys)
+      .filter(key => filter(whiskys[key][0]))
+      .sort(collator.compare)
+      .map(key => ( 
+        <WhiskySection key={key} whiskys={whiskys[key]} category={key} />
+      )
+    );
   }
 
   render() {
     const categorisedWhiskys = this.categorisationFunction[this.props.category](this.props.whiskys);
-    const collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
-    let whiskySection = null;
 
     if (this.props.category === "location") {
-      whiskySection = (
-        <div>
-          <WhiskySection key="Campbeltown" whiskys={categorisedWhiskys["Campbeltown"]} category="Campbeltown" />
-          <WhiskySection key="Highland" whiskys={categorisedWhiskys["Highland"]} category="Highland" />
-          <WhiskySection key="Islay" whiskys={categorisedWhiskys["Islay"]} category="Islay" />
-          <WhiskySection key="Lowland" whiskys={categorisedWhiskys["Lowland"]} category="Lowland" />
-          <WhiskySection key="Speyside" whiskys={categorisedWhiskys["Speyside"]} category="Speyside" />
-          {
-            Object.keys(categorisedWhiskys)
-              .filter(key => ["Campbeltown", "Highland", "Islay", "Speyside"].indexOf(key) < 0)
-              .sort(collator.compare)
-              .map(key => ( 
-                <WhiskySection key={key} whiskys={categorisedWhiskys[key]} category={key} />
-              )
-            )
-          }
+      return (
+        <div className="Whisky">
+          {this.getWhiskySections(categorisedWhiskys, x => x.isScotch)}
+          {this.getWhiskySections(categorisedWhiskys, x => !x.isScotch)}
         </div>
       );
     } else {
-      whiskySection = (
-        <div>
-          {
-            Object.keys(categorisedWhiskys)
-              .sort(collator.compare)
-              .map(key => ( 
-                <WhiskySection key={key} whiskys={categorisedWhiskys[key]} category={key} />
-              )
-            )
-          }
+      return (
+        <div className="Whisky">
+          {this.getWhiskySections(categorisedWhiskys, x => true)}
         </div>
       )
     }
-
-    return (
-      <div className="Whisky">
-        {whiskySection}
-      </div>
-    );
   }
 }
 
