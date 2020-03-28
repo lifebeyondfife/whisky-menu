@@ -1,7 +1,6 @@
 .Whisky {
   font-weight: bold;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%);
-  padding: 10px 50px 10px 50px;
   grid-column-start: 2;
   grid-column-end: 3;
 }
