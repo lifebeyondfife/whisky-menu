@@ -4,12 +4,7 @@ import './Filter.css';
 class Filter extends React.Component {
   constructor(props) {
     super(props);
-    this.handleFilterTextChange = this.handleFilterTextChange.bind(this);
     this.categoryChange = this.categoryChange.bind(this);
-  }
-
-  handleFilterTextChange(event) {
-    this.props.onFilterTextChange(event.target.value);
   }
 
   categoryChange(event) {

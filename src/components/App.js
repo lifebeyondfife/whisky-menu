@@ -8,17 +8,9 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      filterText: new URLSearchParams(new URL(window.location).search).get('filter') || '',
-      category: new URLSearchParams(new URL(window.location).search).get('category') || ''
+      category: new URLSearchParams(new URL(window.location).search).get('category') || 'location'
     };
-    this.handleFilterTextChange = this.handleFilterTextChange.bind(this);
     this.handleCategoryChange = this.handleCategoryChange.bind(this);
-  }
-
-  handleFilterTextChange(filterText) {
-    this.setState({
-      filterText: filterText
-    });
   }
 
   handleCategoryChange(category) {
@@ -31,9 +23,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <Title />
-        <Filter filterText={this.state.filterText} onFilterTextChange={this.handleFilterTextChange}
-          category={this.state.category} onCategoryChange={this.handleCategoryChange} />
-        <Whisky filterText={this.state.filterText} category={this.state.category} whiskys={this.props.whiskys} />
+        <Filter category={this.state.category} onCategoryChange={this.handleCategoryChange} />
+        <Whisky category={this.state.category} whiskys={this.props.whiskys} />
       </div>
     );
   }
