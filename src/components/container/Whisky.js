@@ -5,6 +5,10 @@ import WhiskySection from './WhiskySection';
 class Whisky extends React.Component {
   constructor(props) {
     super(props);
+    this.collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
+    this.whiskysByLocation = this.whiskysByLocation.bind(this);
+    this.whiskysByAge = this.whiskysByAge.bind(this);
+    this.whiskysToBeOpened = this.whiskysToBeOpened.bind(this);
     this.categorisationFunction = {
       "location": this.whiskysByLocation,
       "age": this.whiskysByAge,
@@ -12,56 +16,54 @@ class Whisky extends React.Component {
     }
   }
 
-  whiskysByLocation(whiskys) {
-    const categorisedWhiskys = {}
-
-    whiskys
+  whiskysByLocation() {
+    const whiskyRegionKeyValues = Object.entries(this.props.whiskys
       .filter(whisky => whisky.state === "Opened")
-      .forEach(element => {
-        if (!categorisedWhiskys[element.location]) {
-          categorisedWhiskys[element.location] = [element];
+      .reduce((map, obj) => {
+        if (map[obj.location]) {
+          map[obj.location].push(obj);
         } else {
-          categorisedWhiskys[element.location].push(element);
+          map[obj.location] = [obj];
         }
-      });
-
-    return categorisedWhiskys;
+        return map;
+      }, {}));
+    
+    return whiskyRegionKeyValues
+      .filter(([key, value]) => value[0].isScotch)
+      .sort(([ak, av], [bk, bv]) => this.collator.compare(ak, bk))
+      .concat(whiskyRegionKeyValues
+        .filter(([key, value]) => !value[0].isScotch)
+        .sort(([ak, av], [bk, bv]) => this.collator.compare(ak, bk)));
   }
 
-  whiskysByAge(whiskys) {
-    const categorisedWhiskys = {}
-
-    whiskys
+  whiskysByAge() {
+    return Object.entries(this.props.whiskys
       .filter(whisky => whisky.state === "Opened")
-      .forEach(element => {
-        if (element.age <= 3) {
-          if (!categorisedWhiskys["Unspecified"]) {
-            categorisedWhiskys["Unspecified"] = [element];
-          } else {
-            categorisedWhiskys["Unspecified"].push(element);
-          }
+      .reduce((map, obj) => {
+        const key = obj.age <= 3 ? "Unspecified" : `${obj.age} years old`;
+        if (map[key]) {
+          map[key].push(obj);
         } else {
-          const category = `${element.age} years old`;
-          if (!categorisedWhiskys[category]) {
-            categorisedWhiskys[category] = [element];
-          } else {
-            categorisedWhiskys[category].push(element);
-          }
+          map[key] = [obj];
         }
-      });
-
-    return categorisedWhiskys;
+        return map;
+      }, {}))
+        .sort(([ak, av], [bk, bv]) => this.collator.compare(ak, bk));
   }
 
-  whiskysToBeOpened(whiskys) {
-    return {'': whiskys.filter(whisky => whisky.state === 'Closed')};
+  whiskysToBeOpened() {
+    return [
+      ['', this.props.whiskys
+        .filter(whisky => whisky.state === 'Closed')
+        .sort((a, b) => this.collator.compare(a.name, b.name))]
+    ];
   }
 
   getWhiskySections(whiskys, filter) {
     const collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
     return Object.keys(whiskys)
       .filter(key => filter(whiskys[key][0]))
-      .sort(collator.compare)
+      .sort((a, b) => collator.compare(a, b))
       .map(key => ( 
         <WhiskySection key={key} whiskys={whiskys[key]} category={key} />
       )
@@ -69,22 +71,14 @@ class Whisky extends React.Component {
   }
 
   render() {
-    const categorisedWhiskys = this.categorisationFunction[this.props.category](this.props.whiskys);
-
-    if (this.props.category === "location") {
-      return (
-        <div className="Whisky">
-          {this.getWhiskySections(categorisedWhiskys, x => x.isScotch)}
-          {this.getWhiskySections(categorisedWhiskys, x => !x.isScotch)}
-        </div>
-      );
-    } else {
-      return (
-        <div className="Whisky">
-          {this.getWhiskySections(categorisedWhiskys, x => true)}
-        </div>
-      )
-    }
+    return (
+      <div className="Whisky">
+        {this.categorisationFunction[this.props.category]()
+          .map(([key, value]) => (
+            <WhiskySection key={key} category={key} whiskys={value} />
+          ))}
+      </div>
+    );
   }
 }
 

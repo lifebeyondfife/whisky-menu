@@ -5,9 +5,7 @@ function Title() {
   return (
     <div className="Title">
       <header>
-        <p>
-          Whisky Menu
-        </p>
+        <h1>Whisky Menu</h1>
       </header>
     </div>
   );
