@@ -1,3 +1,12 @@
 .WhiskyDetails {
-  background-color: rgba(243, 243, 243, 0.2);
+  background-color: rgba(165, 165, 165, 0.25);
+  padding: 5px 0px 5px 0px;
+}
+
+p {
+  font-weight: normal;
+}
+
+th {
+  vertical-align: top;
 }

@@ -27,7 +27,7 @@ class Whisky extends React.Component {
         }
         return map;
       }, {}));
-    
+
     return whiskyRegionKeyValues
       .filter(([key, value]) => value[0].isScotch)
       .sort(([ak, av], [bk, bv]) => this.collator.compare(ak, bk))
@@ -57,17 +57,6 @@ class Whisky extends React.Component {
         .filter(whisky => whisky.state === 'Closed')
         .sort((a, b) => this.collator.compare(a.name, b.name))]
     ];
-  }
-
-  getWhiskySections(whiskys, filter) {
-    const collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
-    return Object.keys(whiskys)
-      .filter(key => filter(whiskys[key][0]))
-      .sort((a, b) => collator.compare(a, b))
-      .map(key => ( 
-        <WhiskySection key={key} whiskys={whiskys[key]} category={key} />
-      )
-    );
   }
 
   render() {
