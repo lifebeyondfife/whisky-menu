@@ -101,7 +101,7 @@ export default {
       "description": "The original expression of our elegant, floral spirit and the real backbone of the Glenmorangie range. A ten-year-old single malt, Glenmorangie Original is produced by marrying the delicate spirit that emerges from Scotland's tallest stills, with first and second fill American white oak casks.<br />It is here, maturing for ten long years in a range of ex-bourbon casks such as our famous slow-grown and air-dried 'designer casks' from Missouri, that our raw spirit develops a perfect balance between sweetness and complexity. Resulting in a mature spirit that is soft, mellow and creamy. Perfect for enjoying at any time.",
     },
     {
-      "id": 16, "name": "Aberlour 12", "age": 12, "location": "Highland", "state": "Opened", isScotch: true, "abv": 40,
+      "id": 16, "name": "Aberlour 12", "age": 12, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 40,
       "appearance": "Golden amber with hints of ruby",
       "nose": "Soft and rounded with fruity notes of red apple",
       "palate": "A fine Sherried character, fruity aromas balanced with rich chocolate",
