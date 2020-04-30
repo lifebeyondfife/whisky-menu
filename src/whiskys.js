@@ -245,5 +245,49 @@ export default {
       "id": 36, "name": "Port Askaig 8", "age": 8, "location": "Islay", "state": "Opened", isScotch: true, "abv": 45.8,
       "description": "The perfect introduction to the Isle of Islay, Port Askaig 8 Year Old has a soft, sweet peaty character balanced to perfection. Ageing in refill American oak allows the character of the spirit to shine through, making for a gentle, smoky, moreish dram.",
     },
+    {
+      "id": 37, "name": "GlenDronach 15 Revival", "age": 15, "location": "Highland", "state": "Closed", isScotch: true, "abv": 46,
+      "appearance": "Antique Bronze.",
+      "nose": "An intoxicating burst of maraschino cherry, ripe bramble and dark chocolate mint with hints of orange bitters and walnut liqueur.",
+      "palate": "Honey-glazed apricot and ripe fig with a crescendo of black cherry, angelica and muscovado. Long and enveloping finish with dark manuka honey, herbal bitters and dark chocolate.",
+      "description": "After ceasing production in 2015, The GlenDronach Revival Aged 15 years now returns to the core range  of the distillery’s line-up. The expression embodies The GlenDronach’s signature style of Spanish Sherry  Cask maturation in fine Pedro Ximénez and Oloroso sherry casks from Andalucía, quietly growing in stature for 15 years in the darkness of our dunnage warehouses.<br />In flavour, the expression offers sumptuous notes of dark fruits, rich chocolate and manuka honey with  an enveloping, memorable finish worthy of this monumental malt’s history. This luxuriously sherried Highland Single Malt Scotch Whisky is bottled at 46% ABV, non chill filtered and natural in colour.",
+    },
+    {
+      "id": 38, "name": "Redbreast 12", "age": 12, "location": "Ireland", "state": "Closed", isScotch: false, "abv": 40,
+      "nose": "A complex spicy and fruity aroma with toasted wood notes evident.",
+      "palate": "Full flavoured and complex; silky smooth with a harmonious balance of spicy, fruity, sherry and toasted notes.",
+      "finish": "Satisfyingly long, the complex flavours linger on the palate.",
+      "description": "Made from a mash of malted and unmalted barley and then triple distilled in copper pot stills, Redbreast 12 boasts the flavour complexity and distinctive qualities of Pot Still whiskey. Matured in a combination of Bourbon seasoned American Oak barrels and Oloroso Sherry seasoned Spanish oak butts, the distinctive Redbreast sherry style is a joy to behold in each and every bottle.",
+    },
+    {
+      "id": 39, "name": "Suntory Yamazaki 12", "age": 12, "location": "Japan", "state": "Closed", isScotch: false, "abv": 43,
+      "appearance": "Pure gold",
+      "nose": "Peach, pineapple, grapefruit, clove, candied orange, vanilla, Mizunara (Japanese oak)",
+      "palate": "Coconut, cranberry, butter",
+      "finish": "Sweet ginger, cinnamon, long finish",
+      "description": "Succulent with soft fruit.",
+    },
+    {
+      "id": 40, "name": "GlenDronach 21 Parliament", "age": 21, "location": "Highland", "state": "Closed", isScotch: true, "abv": 48,
+      "appearance": "Deep amber with a cherry wood sheen.",
+      "nose": "A delicate mix of ripe autumnal fruits - notably blackberries and red plums. Rich Oloroso sherry and candied orange segments. Spiced oatmeal biscuits and toasted oak fragrances bring excellent weight and balance.",
+      "palate": "Resolute flavours of fine Oloroso sherry and bitter chocolate sauce, which has been spread liberally over homemade plum pudding. This is all infused with fabulous spicy notes - cinnamon, allspice and nutmeg. Full bodied with smooth tannins.",
+      "finish": "Long and lingering.",
+      "description": "Matured in a combination of the finest Oloroso and Pedro Ximenez sherry casks for a minimum of 21 years, the ‘Parliament’ continues the great GlenDronach tradition of offering fruit-laden intensity in its single malts. This rich expression has been named ‘Parliament’ after the colony, or ‘parliament’, of rooks that have been nesting in the trees that overlook the GlenDronach distillery for almost 200 years. Bottled at 48%, the ‘Parliament’ is non chill filtered and of natural colour.",
+    },
+    {
+      "id":  41, "name": "Hazelburn 10", "age": 10, "location": "Campbeltown", "state": "Closed", isScotch: true, "abv": 46,
+      "nose": "Stewed pears and baked apples are followed by honeycomb and fudge notes.",
+      "palate": "A lovely and rich whisky with vanilla and honey flavours, liquorice follows with a refreshing zestiness.",
+      "finish": "A refined milk chocolate cream finish that is oily and chewy.",
+      "description": "Rich in flavour, our Hazelburn 10-year-old is awash with scents and flavours that will delight.",
+    },
+    {
+      "id":  42, "name": "Balvenie 15 Sherry Barrel", "age": 15, "location": "Speyside", "state": "Closed", isScotch: true, "abv": 47.8,
+      "nose": "Dried fruits overlaid with a gentle nuttiness.",
+      "palate": "Rich with elegant oak and subtle spice.",
+      "finish": "Long, sherried finish.",
+      "description": "The Balvenie Single Barrel Sherry Cask has been matured exclusively in a single European oak sherry butt for at least 15 years. The term ‘Single Barrel’ conveys the unique nature of the single malt whisky, which has been drawn from a single cask of a single distillation.<br />Limited by nature, each heavily toasted European oak Oloroso sherry butt will yield no more than 800 bottles of Scotch whisky.",
+    }
   ]
 };
