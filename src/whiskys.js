@@ -245,6 +245,20 @@ export default {
       "palate": "Rich with elegant oak and subtle spice.",
       "finish": "Long, sherried finish.",
       "description": "The Balvenie Single Barrel Sherry Cask has been matured exclusively in a single European oak sherry butt for at least 15 years. The term ‘Single Barrel’ conveys the unique nature of the single malt whisky, which has been drawn from a single cask of a single distillation.<br />Limited by nature, each heavily toasted European oak Oloroso sherry butt will yield no more than 800 bottles of Scotch whisky.",
+    },
+    {
+      "id": 43, "name": "BenRiach 12", "age": 12, "location": "Speyside", "state": "Closed", isScotch: true, "abv": 46,
+      "appearance": "Deep golden-bronze.",
+      "nose": "Sherry cask maturation at its most fruity and luscious. Baked fruit salad with fig, pear, apricot and glacé cherry in mandarin syrup. Honey glazed flan with crème-caramel and toasted vanilla pod add to the multi-layered sweetness.",
+      "palate": "A rich fruit cocktail of honeyed fig, baked pineapple and sultana fused with chocolate fondant and muscovado sugar, lifted by mandarin cream, ground nutmeg and vanilla. On the finish savour nectarine, candied grape and star anise, lingering into the dessert-like sherried finish.",
+      "description": "At BenRiach Distillery we have developed a reputation for innovative maturation, using a diverse mix of cask types. This luscious 12 year old Single Malt Scotch Whisky is unconventionally made using three facets of sherry cask maturation: full sherry cask maturation, combined with Pedro Ximénez and Oloroso sherry cask finishing, for unexpected layers of fruit sweetness and toasted oak spice. Each facet of sherry cask maturation is expertly combined by our Master Blender to work in harmony, creating a luscious Single Malt Scotch Whisky with a multi- layered cocktail of fruit notes, further enriching BenRiach’s signature sweet, fruit-laden style.<br />Bottled at 46%, non-chill filtered and of natural colour.",
+    },
+    {
+      "id": 44, "name": "Glen Scotia 18", "age": 18, "location": "Campbeltown", "state": "Closed", isScotch: true, "abv": 46,
+      "nose": "Crisp saltiness, perfumed floral notes and thick sweet toffee.",
+      "palate": "Rich deep vanilla fruit flavours, apricot and pineapple, plump sultana.",
+      "finish": "Long and dry with gentle warming spice.",
+      "description": "An exceptional single malt whisky matured from specially selected casks that deliver the true character of a 18 year old Glen Scotia malt whisky.",
     }
   ]
 };
