@@ -1,13 +1,6 @@
 export default {
   whiskyList: [
     {
-      "id":  2, "name": "Glenmorangie 10", "age": 10, "location": "Highland", "state": "Opened", isScotch: true, "abv": 40,
-      "nose": "The scent of citrus and ripening peaches is softened by the aroma of vanilla.",
-      "palate": "First, vanilla is detected on the tongue before it ripples along the palate bringing a burst of flowery fruitiness.",
-      "finish": "About a minute after tasting, you are left with a clean and salving aftertaste with hints of orange and peach.",
-      "description": "The original expression of our elegant, floral spirit and the real backbone of the Glenmorangie range. A ten-year-old single malt, Glenmorangie Original is produced by marrying the delicate spirit that emerges from Scotland's tallest stills, with first and second fill American white oak casks.<br />It is here, maturing for ten long years in a range of ex-bourbon casks such as our famous slow-grown and air-dried 'designer casks' from Missouri, that our raw spirit develops a perfect balance between sweetness and complexity. Resulting in a mature spirit that is soft, mellow and creamy. Perfect for enjoying at any time.",
-    },
-    {
       "id":  3, "name": "Nikka Miyagikyo", "age": 3, "location": "Japan", "state": "Opened", isScotch: false, "abv": 45,
       "description": "Miyagikyo Single Malt is described as soft and fruity.<br />Using less peaty malt, this whisky is distilled in a pot still heated by indirect steam at a low temperature. Miyagikyo Single Malt has an elegant fruitiness and a distinctive aroma with a strong Sherry cask influence.",
     },
@@ -18,20 +11,6 @@ export default {
       "palate": "Coconut, cranberry, butter",
       "finish": "Sweet ginger, cinnamon, long finish",
       "description": "Succulent with soft fruit.",
-    },
-    {
-      "id":  5, "name": "Glenmorangie 18", "age": 18, "location": "Highland", "state": "Opened", isScotch: true, "abv": 43,
-      "nose": "Rich, rounded and sweet with dried fruits and a complex floral fragrance.",
-      "palate": "The taste is balanced between honey, malt and flowery scents. Dates and figs emerge in the background with a hint of wood smoke.",
-      "finish": "The finish is long and enticing with the sweetness of dried fruit and subtle dryness of Oloroso nuttiness.",
-      "description": "The 18 Years Old is a single malt Scotch whisky of serious distinction. Once it has spent fifteen years maturing in American white oak casks approximately 30% is transferred into Spanish Oloroso casks to spend a further three years maturing. Then, when both elements have reached 18 years, we blend them back together to create a whisky with a rich bouquet and full, rounded flavour. For a whisky of this age this expression has maintained, thanks to our delicate floral spirit and fine Oloroso casks, an incredible degree of vibrancy where the raisiny sweetness of the sherry has been toned down by the nuttiness of the American oak.",
-    },
-    {
-      "id":  6, "name": "Old Pulteney 17", "age": 17, "location": "Highland", "state": "Opened", isScotch: true, "abv": 46,
-      "appearance": "Red amber with a rich ochre hue.",
-      "nose": "Sweet with traces of apples and pears: slightly woody with a hint of butterscotch.",
-      "palate": "Sweet with soft fruits: kiwi, guava, peach.",
-      "description": "Aged in both American and Spanish oak casks, the mid-range Old Pulteney 17 Year Old strikes the perfect balance between maturity and the distillery’s signature coastal style, winning hearts of whisky enthusiasts the world over.",
     },
     {
       "id":  7, "name": "Aberlour 18", "age": 18, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 43,
@@ -48,13 +27,6 @@ export default {
       "palate": "Fresh, mellow with pear creamy peaches and pineapple and a hint of Demerara sugar.",
       "finish": "Rich, smooth and refreshing. A signature Speyside malt.",
       "description": "Matured in American oak barrels for a sweet, mellow taste with a rich, smooth Sherry cask finish.",
-    },
-    {
-      "id":  9, "name": "Hazelburn 10", "age": 10, "location": "Campbeltown", "state": "Opened", isScotch: true, "abv": 46,
-      "nose": "Stewed pears and baked apples are followed by honeycomb and fudge notes.",
-      "palate": "A lovely and rich whisky with vanilla and honey flavours, liquorice follows with a refreshing zestiness.",
-      "finish": "A refined milk chocolate cream finish that is oily and chewy.",
-      "description": "Rich in flavour, our Hazelburn 10-year-old is awash with scents and flavours that will delight.",
     },
     {
       "id": 10, "name": "Glen Scotia 18", "age": 18, "location": "Campbeltown", "state": "Opened", isScotch: true, "abv": 46,
@@ -99,21 +71,6 @@ export default {
       "palate": "First, vanilla is detected on the tongue before it ripples along the palate bringing a burst of flowery fruitiness.",
       "finish": "About a minute after tasting, you are left with a clean and salving aftertaste with hints of orange and peach.",
       "description": "The original expression of our elegant, floral spirit and the real backbone of the Glenmorangie range. A ten-year-old single malt, Glenmorangie Original is produced by marrying the delicate spirit that emerges from Scotland's tallest stills, with first and second fill American white oak casks.<br />It is here, maturing for ten long years in a range of ex-bourbon casks such as our famous slow-grown and air-dried 'designer casks' from Missouri, that our raw spirit develops a perfect balance between sweetness and complexity. Resulting in a mature spirit that is soft, mellow and creamy. Perfect for enjoying at any time.",
-    },
-    {
-      "id": 16, "name": "Aberlour 12", "age": 12, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 40,
-      "appearance": "Golden amber with hints of ruby",
-      "nose": "Soft and rounded with fruity notes of red apple",
-      "palate": "A fine Sherried character, fruity aromas balanced with rich chocolate",
-      "finish": "Warm and lingering. Sweet and spicy",
-      "description": "The 12 year-old expression is a fine example of how the distinctively crisp, citrus character of Aberlour's new distillate is deftly softened by double cask maturation. Traditional Oak and seasoned Sherry butts are both used to great effect, as the mellowed spirits within are combined to deliver a subtly balanced flavour",
-    },
-    {
-      "id": 17, "name": "GlenDronach 15 Revival", "age": 15, "location": "Highland", "state": "Opened", isScotch: true, "abv": 46,
-      "appearance": "Antique Bronze.",
-      "nose": "An intoxicating burst of maraschino cherry, ripe bramble and dark chocolate mint with hints of orange bitters and walnut liqueur.",
-      "palate": "Honey-glazed apricot and ripe fig with a crescendo of black cherry, angelica and muscovado. Long and enveloping finish with dark manuka honey, herbal bitters and dark chocolate.",
-      "description": "After ceasing production in 2015, The GlenDronach Revival Aged 15 years now returns to the core range  of the distillery’s line-up. The expression embodies The GlenDronach’s signature style of Spanish Sherry  Cask maturation in fine Pedro Ximénez and Oloroso sherry casks from Andalucía, quietly growing in stature for 15 years in the darkness of our dunnage warehouses.<br />In flavour, the expression offers sumptuous notes of dark fruits, rich chocolate and manuka honey with  an enveloping, memorable finish worthy of this monumental malt’s history. This luxuriously sherried Highland Single Malt Scotch Whisky is bottled at 46% ABV, non chill filtered and natural in colour.",
     },
     {
       "id": 18, "name": "GlenDronach 18 Allardice", "age": 18, "location": "Highland", "state": "Closed", isScotch: true, "abv": 46,
@@ -206,7 +163,7 @@ export default {
       "description": "Made from a mash of malted and unmalted barley and then triple distilled in copper pot stills, Redbreast 12 boasts the flavour complexity and distinctive qualities of Pot Still whiskey. Matured in a combination of Bourbon seasoned American Oak barrels and Oloroso Sherry seasoned Spanish oak butts, the distinctive Redbreast sherry style is a joy to behold in each and every bottle.",
     },
     {
-      "id": 31, "name": "Arran 18", "age": 18, "location": "Highland", "state": "Closed", isScotch: true, "abv": 46,
+      "id": 31, "name": "Arran 18", "age": 18, "location": "Highland", "state": "Opened", isScotch: true, "abv": 46,
       "appearance": "Deep amber",
       "nose": "Orchard fruits with syrup and toasted oak",
       "palate": "Sweetness, Spice, Citrus, Baked peaches.",
@@ -283,7 +240,7 @@ export default {
       "description": "Rich in flavour, our Hazelburn 10-year-old is awash with scents and flavours that will delight.",
     },
     {
-      "id":  42, "name": "Balvenie 15 Sherry Barrel", "age": 15, "location": "Speyside", "state": "Closed", isScotch: true, "abv": 47.8,
+      "id":  42, "name": "Balvenie 15 Sherry Barrel", "age": 15, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 47.8,
       "nose": "Dried fruits overlaid with a gentle nuttiness.",
       "palate": "Rich with elegant oak and subtle spice.",
       "finish": "Long, sherried finish.",
