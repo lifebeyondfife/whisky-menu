@@ -259,6 +259,22 @@ export default {
       "palate": "Rich deep vanilla fruit flavours, apricot and pineapple, plump sultana.",
       "finish": "Long and dry with gentle warming spice.",
       "description": "An exceptional single malt whisky matured from specially selected casks that deliver the true character of a 18 year old Glen Scotia malt whisky.",
+    },
+    {
+      "id": 45, "name": "Shane Irish Whiskey", "age": 3, "location": "Ireland", "state": "Opened", isScotch: false, "abv": 40,
+      "appearance": "A warm, golden topaz with hues of rich toffee.",
+      "nose": "Complex fruit with drizzles of caramel, butterscotch and vanilla; brown spice and toasted oak.",
+      "palate": "Spicy at first but quickly sweetened with rich caramel, vanilla and butterscotch atop a deep layer of dried fruit.",
+      "finish": "Lingering hints of dry fruit and caramelised wood sugar.",
+      "description": "Slane Irish Whiskey is a smooth spirit of natural character with untamed notes of oak and spice from a signature triple casked blend.<br />From the family Conyngham of Slane Castle, the barrel-raising art of Brown-Forman, and the proud people of Slane Village, this is a whiskey for those living the stories that will be told for generations to come.",
+    },
+    {
+      "id": 46, "name": "Shane Irish Whiskey", "age": 3, "location": "Ireland", "state": "Closed", isScotch: false, "abv": 40,
+      "appearance": "A warm, golden topaz with hues of rich toffee.",
+      "nose": "Complex fruit with drizzles of caramel, butterscotch and vanilla; brown spice and toasted oak.",
+      "palate": "Spicy at first but quickly sweetened with rich caramel, vanilla and butterscotch atop a deep layer of dried fruit.",
+      "finish": "Lingering hints of dry fruit and caramelised wood sugar.",
+      "description": "Slane Irish Whiskey is a smooth spirit of natural character with untamed notes of oak and spice from a signature triple casked blend.<br />From the family Conyngham of Slane Castle, the barrel-raising art of Brown-Forman, and the proud people of Slane Village, this is a whiskey for those living the stories that will be told for generations to come.",
     }
   ]
 };
