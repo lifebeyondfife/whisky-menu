@@ -73,7 +73,7 @@ export default {
       "description": "The original expression of our elegant, floral spirit and the real backbone of the Glenmorangie range. A ten-year-old single malt, Glenmorangie Original is produced by marrying the delicate spirit that emerges from Scotland's tallest stills, with first and second fill American white oak casks.<br />It is here, maturing for ten long years in a range of ex-bourbon casks such as our famous slow-grown and air-dried 'designer casks' from Missouri, that our raw spirit develops a perfect balance between sweetness and complexity. Resulting in a mature spirit that is soft, mellow and creamy. Perfect for enjoying at any time.",
     },
     {
-      "id": 18, "name": "GlenDronach 18 Allardice", "age": 18, "location": "Highland", "state": "Closed", isScotch: true, "abv": 46,
+      "id": 18, "name": "GlenDronach 18 Allardice", "age": 18, "location": "Highland", "state": "Opened", isScotch: true, "abv": 46,
       "appearance": "Bright deep gold with a tawny centre.",
       "nose": "Sweet aromatics of fudge and Muscovado sugar. Fruit compote and glacier morello cherries provide added complexity.",
       "palate": "Rich dark and seductive. Remarkable flavours of stewed fruits and all-spice marry together with classic aged Oloroso sherry and toasted walnut bread combined with chocolate orange.",
@@ -88,13 +88,6 @@ export default {
       "description": "Flavours of orange peel, smoke, sea salt, and honey distinguish this full-bodied highland malt.",
     },
     {
-      "id": 20, "name": "Glen Moray 15", "age": 15, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 40,
-      "nose": "Sherried oak and butter toffee.",
-      "palate": "Full-bodied and indulgently sweet. Imagine a spiced dark chocolate enjoyed with a finely oaked wine - intense and satisfying.",
-      "finish": "Long and rich.",
-      "description": "The amalgamation of two distinct cask styles - sherry and American oak. An exquisitely complex whisky with a hint of spice and delicate smoke that boasts heady dried fruits and rich dark chocolate.",
-    },
-    {
       "id": 21, "name": "Westland's Sherry Wood", "age": 3, "location": "USA", "state": "Opened", isScotch: false, "abv": 46,
       "nose": "Honey-dipped oatmeal raisin cookies, maple syrup, banana pancakes.",
       "palate": "Kiwi, maple syrup, raisins, sweet cookies, pastries, stewed yellow fruits.",
@@ -107,7 +100,7 @@ export default {
       "description": "While the practice of maturing whiskey in sherry casks isn’t as long-standing as peated whiskies, it has become a standard of old world sensibilities. We celebrate this custom by filling hogsheads and butts sourced from the same region the Scottish find their casks. But what we do with them differs. Again, our five-malt spirit plays a significant role, allowing us to balance the sherry influence with our local malted barley flavor. We have our sherry casks shipped whole, which is unusual in the business of whiskey. This provides a sherry character that is still incredibly vibrant in this whiskey, but we always ensure the barley notes have an equal voice, something rarely done in Scotland.",
     },
     {
-      "id": 23, "name": "GlenDronach 12 Original", "age": 12, "location": "Highland", "state": "Closed", isScotch: true, "abv": 43,
+      "id": 23, "name": "GlenDronach 12 Original", "age": 12, "location": "Highland", "state": "Opened", isScotch: true, "abv": 43,
       "appearance": "Deep amber-red gold.",
       "nose": "Sweet, creamy vanilla, with hints of ginger. Spiced mulled wine and pear.",
       "palate": "Rich, creamy, silky-smooth. Warm, rich oak and sherry sweetness, full mouth feel, raisins and soft fruits. Spicy with medium length and a dry finish.",
@@ -123,7 +116,7 @@ export default {
       "description": "This superb richly sherried single malt is matured for at least 12 years in a combination of the finest Spanish Pedro Ximenez and Oloroso sherry casks. Non-chill filtered, of natural colour and bottled at 43%, the GlenDronach 12 year old Original is a sweet, creamy dram.",
     },
     {
-      "id": 25, "name": "GlenDronach 21 Parliament", "age": 21, "location": "Highland", "state": "Closed", isScotch: true, "abv": 48,
+      "id": 25, "name": "GlenDronach 21 Parliament", "age": 21, "location": "Highland", "state": "Opened", isScotch: true, "abv": 48,
       "appearance": "Deep amber with a cherry wood sheen.",
       "nose": "A delicate mix of ripe autumnal fruits - notably blackberries and red plums. Rich Oloroso sherry and candied orange segments. Spiced oatmeal biscuits and toasted oak fragrances bring excellent weight and balance.",
       "palate": "Resolute flavours of fine Oloroso sherry and bitter chocolate sauce, which has been spread liberally over homemade plum pudding. This is all infused with fabulous spicy notes - cinnamon, allspice and nutmeg. Full bodied with smooth tannins.",
@@ -146,7 +139,7 @@ export default {
       "description": "The classic expression of Arran - our fresh and unique island style is captured beautifully in our 10 Year Old Single Malt. It is beautifully presented in a brand new pack and is most definitely your best introduction to Arran Single Malt.",
     },
     {
-      "id": 28, "name": "GlenDronach 15 Revival", "age": 15, "location": "Highland", "state": "Closed", isScotch: true, "abv": 46,
+      "id": 28, "name": "GlenDronach 15 Revival", "age": 15, "location": "Highland", "state": "Opened", isScotch: true, "abv": 46,
       "appearance": "Antique Bronze.",
       "nose": "An intoxicating burst of maraschino cherry, ripe bramble and dark chocolate mint with hints of orange bitters and walnut liqueur.",
       "palate": "Honey-glazed apricot and ripe fig with a crescendo of black cherry, angelica and muscovado. Long and enveloping finish with dark manuka honey, herbal bitters and dark chocolate.",
