@@ -29,13 +29,6 @@ export default {
       "description": "Matured in American oak barrels for a sweet, mellow taste with a rich, smooth Sherry cask finish.",
     },
     {
-      "id": 10, "name": "Glen Scotia 18", "age": 18, "location": "Campbeltown", "state": "Opened", isScotch: true, "abv": 46,
-      "nose": "Crisp saltiness, perfumed floral notes and thick sweet toffee.",
-      "palate": "Rich deep vanilla fruit flavours, apricot and pineapple, plump sultana.",
-      "finish": "Long and dry with gentle warming spice.",
-      "description": "An exceptional single malt whisky matured from specially selected casks that deliver the true character of a 18 year old Glen Scotia malt whisky.",
-    },
-    {
       "id": 11, "name": "Caol Ila 12", "age": 12, "location": "Islay", "state": "Opened", isScotch: true, "abv": 43,
       "appearance": "Pale straw.",
       "nose": "Subdued, citric fruitiness; a whiff of bath oil and dentist's mouthwash. A fresh and appetising nose, with little or no trace of smoke.",
