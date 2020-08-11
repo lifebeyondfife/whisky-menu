@@ -59,7 +59,7 @@ export default {
       "description": "A magnificent whisky matured in American white oak ex-bourbon casks and aged Matusalem oloroso sherry casks.",
     },
     {
-      "id": 15, "name": "Glenmorangie 10", "age": 10, "location": "Highland", "state": "Closed", isScotch: true, "abv": 40,
+      "id": 15, "name": "Glenmorangie 10", "age": 10, "location": "Highland", "state": "Opened", isScotch: true, "abv": 40,
       "nose": "The scent of citrus and ripening peaches is softened by the aroma of vanilla.",
       "palate": "First, vanilla is detected on the tongue before it ripples along the palate bringing a burst of flowery fruitiness.",
       "finish": "About a minute after tasting, you are left with a clean and salving aftertaste with hints of orange and peach.",
@@ -171,18 +171,11 @@ export default {
       "description": "The GlenDronach 18 years old has been named after the renowned founder of the distillery, James Allardice. This exceptional sherried single malt is non chill filtered and of natural colour. Matured in the finest Spanish Oloroso sherry casks and bottled at 46%, this sublime richly sherried malt is truly unforgettable.",
     },
     {
-      "id": 34, "name": "Old Pulteney 17", "age": 17, "location": "Highland", "state": "Closed", isScotch: true, "abv": 46,
+      "id": 34, "name": "Old Pulteney 17", "age": 17, "location": "Highland", "state": "Opened", isScotch: true, "abv": 46,
       "appearance": "Red amber with a rich ochre hue.",
       "nose": "Sweet with traces of apples and pears: slightly woody with a hint of butterscotch.",
       "palate": "Sweet with soft fruits: kiwi, guava, peach.",
       "description": "Aged in both American and Spanish oak casks, the mid-range Old Pulteney 17 Year Old strikes the perfect balance between maturity and the distillery’s signature coastal style, winning hearts of whisky enthusiasts the world over.",
-    },
-    {
-      "id": 35, "name": "BenRiach 12", "age": 12, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 46,
-      "appearance": "Deep golden-bronze.",
-      "nose": "Sherry cask maturation at its most fruity and luscious. Baked fruit salad with fig, pear, apricot and glacé cherry in mandarin syrup. Honey glazed flan with crème-caramel and toasted vanilla pod add to the multi-layered sweetness.",
-      "palate": "A rich fruit cocktail of honeyed fig, baked pineapple and sultana fused with chocolate fondant and muscovado sugar, lifted by mandarin cream, ground nutmeg and vanilla. On the finish savour nectarine, candied grape and star anise, lingering into the dessert-like sherried finish.",
-      "description": "At BenRiach Distillery we have developed a reputation for innovative maturation, using a diverse mix of cask types. This luscious 12 year old Single Malt Scotch Whisky is unconventionally made using three facets of sherry cask maturation: full sherry cask maturation, combined with Pedro Ximénez and Oloroso sherry cask finishing, for unexpected layers of fruit sweetness and toasted oak spice. Each facet of sherry cask maturation is expertly combined by our Master Blender to work in harmony, creating a luscious Single Malt Scotch Whisky with a multi- layered cocktail of fruit notes, further enriching BenRiach’s signature sweet, fruit-laden style.<br />Bottled at 46%, non-chill filtered and of natural colour.",
     },
     {
       "id": 36, "name": "Port Askaig 8", "age": 8, "location": "Islay", "state": "Opened", isScotch: true, "abv": 45.8,
@@ -219,7 +212,7 @@ export default {
       "description": "Matured in a combination of the finest Oloroso and Pedro Ximenez sherry casks for a minimum of 21 years, the ‘Parliament’ continues the great GlenDronach tradition of offering fruit-laden intensity in its single malts. This rich expression has been named ‘Parliament’ after the colony, or ‘parliament’, of rooks that have been nesting in the trees that overlook the GlenDronach distillery for almost 200 years. Bottled at 48%, the ‘Parliament’ is non chill filtered and of natural colour.",
     },
     {
-      "id":  41, "name": "Hazelburn 10", "age": 10, "location": "Campbeltown", "state": "Closed", isScotch: true, "abv": 46,
+      "id":  41, "name": "Hazelburn 10", "age": 10, "location": "Campbeltown", "state": "Opened", isScotch: true, "abv": 46,
       "nose": "Stewed pears and baked apples are followed by honeycomb and fudge notes.",
       "palate": "A lovely and rich whisky with vanilla and honey flavours, liquorice follows with a refreshing zestiness.",
       "finish": "A refined milk chocolate cream finish that is oily and chewy.",
@@ -247,7 +240,7 @@ export default {
       "description": "An exceptional single malt whisky matured from specially selected casks that deliver the true character of a 18 year old Glen Scotia malt whisky.",
     },
     {
-      "id": 45, "name": "Shane Irish Whiskey", "age": 3, "location": "Ireland", "state": "Opened", isScotch: false, "abv": 40,
+      "id": 45, "name": "Slane Irish Whiskey", "age": 3, "location": "Ireland", "state": "Opened", isScotch: false, "abv": 40,
       "appearance": "A warm, golden topaz with hues of rich toffee.",
       "nose": "Complex fruit with drizzles of caramel, butterscotch and vanilla; brown spice and toasted oak.",
       "palate": "Spicy at first but quickly sweetened with rich caramel, vanilla and butterscotch atop a deep layer of dried fruit.",
@@ -255,7 +248,7 @@ export default {
       "description": "Slane Irish Whiskey is a smooth spirit of natural character with untamed notes of oak and spice from a signature triple casked blend.<br />From the family Conyngham of Slane Castle, the barrel-raising art of Brown-Forman, and the proud people of Slane Village, this is a whiskey for those living the stories that will be told for generations to come.",
     },
     {
-      "id": 46, "name": "Shane Irish Whiskey", "age": 3, "location": "Ireland", "state": "Closed", isScotch: false, "abv": 40,
+      "id": 46, "name": "Slane Irish Whiskey", "age": 3, "location": "Ireland", "state": "Closed", isScotch: false, "abv": 40,
       "appearance": "A warm, golden topaz with hues of rich toffee.",
       "nose": "Complex fruit with drizzles of caramel, butterscotch and vanilla; brown spice and toasted oak.",
       "palate": "Spicy at first but quickly sweetened with rich caramel, vanilla and butterscotch atop a deep layer of dried fruit.",
