@@ -5,22 +5,6 @@ export default {
       "description": "Miyagikyo Single Malt is described as soft and fruity.<br />Using less peaty malt, this whisky is distilled in a pot still heated by indirect steam at a low temperature. Miyagikyo Single Malt has an elegant fruitiness and a distinctive aroma with a strong Sherry cask influence.",
     },
     {
-      "id":  4, "name": "Suntory Yamazaki 12", "age": 12, "location": "Japan", "state": "Opened", isScotch: false, "abv": 43,
-      "appearance": "Pure gold",
-      "nose": "Peach, pineapple, grapefruit, clove, candied orange, vanilla, Mizunara (Japanese oak)",
-      "palate": "Coconut, cranberry, butter",
-      "finish": "Sweet ginger, cinnamon, long finish",
-      "description": "Succulent with soft fruit.",
-    },
-    {
-      "id":  7, "name": "Aberlour 18", "age": 18, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 43,
-      "appearance": "Auburn gold",
-      "nose": "Rich and complex notes of toffee and butterscotch combine with ripe peach and bitter orange",
-      "palate": "Perfect structure. Initial notes of soft apricot and cream are offset by developing flavours of blackcurrant jam and sweet oak with a touch of honey",
-      "finish": "Very long and balanced, progresses from crème brûlée to a gentle oak flourish",
-      "description": "The mature, deep, spicy one: a deeper Sherry influence adds more spiciness and a liquorice tang. Greater age adds body and develops the distinctive fruitiness to a rich raisin character.",
-    },
-    {
       "id":  8, "name": "Tamnavulin", "age": 3, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 40,
       "appearance": "Amber gold.",
       "nose": "Rich, warm aromas of apple, toffee and honey with sweet marzipan and subtle tangy marmalade notes.",
