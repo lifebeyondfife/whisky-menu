@@ -123,7 +123,12 @@ export default {
       "description": "After ceasing production in 2015, The GlenDronach Revival Aged 15 years now returns to the core range  of the distillery’s line-up. The expression embodies The GlenDronach’s signature style of Spanish Sherry  Cask maturation in fine Pedro Ximénez and Oloroso sherry casks from Andalucía, quietly growing in stature for 15 years in the darkness of our dunnage warehouses.<br />In flavour, the expression offers sumptuous notes of dark fruits, rich chocolate and manuka honey with  an enveloping, memorable finish worthy of this monumental malt’s history. This luxuriously sherried Highland Single Malt Scotch Whisky is bottled at 46% ABV, non chill filtered and natural in colour.",
     },
     {
-      "id": 29, "name": "Aberlour 10", "age": 10, "location": "Speyside", "state": "Closed", isScotch: true, "abv": 40,
+      "id": 29, "name": "Aberlour 10", "age": 10, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 40,
+      "appearance": "Gold.",
+      "nose": "The dry, fresh, fruity aromas of early autumn apples and pears are subtly enhanced with sweet notes of vanilla and mint toffee.",
+      "palate": "Exceptionally smooth and creamy, with spicy-sweet nutmeg and honey combining with the freshness of autumn fruits.",
+      "finish": "Long, soft and warming.",
+      "description": "Nestling in the heart of Speyside is the village of Aberlour where a source of exceptionally pure spring water known as St. Drostan's Well inspired James Fleming to build his distillery in 1879.<br />The richness of the natural environment combined with the soft and pure water creates Aberlour single malt, a distinctive whisky of generous character."
     },
     {
       "id": 30, "name": "Redbreast 12", "age": 12, "location": "Ireland", "state": "Opened", isScotch: false, "abv": 40,
