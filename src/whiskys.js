@@ -1,10 +1,6 @@
 export default {
   whiskyList: [
     {
-      "id":  3, "name": "Nikka Miyagikyo", "age": 3, "location": "Japan", "state": "Opened", isScotch: false, "abv": 45,
-      "description": "Miyagikyo Single Malt is described as soft and fruity.<br />Using less peaty malt, this whisky is distilled in a pot still heated by indirect steam at a low temperature. Miyagikyo Single Malt has an elegant fruitiness and a distinctive aroma with a strong Sherry cask influence.",
-    },
-    {
       "id":  8, "name": "Tamnavulin", "age": 3, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 40,
       "appearance": "Amber gold.",
       "nose": "Rich, warm aromas of apple, toffee and honey with sweet marzipan and subtle tangy marmalade notes.",
@@ -34,13 +30,6 @@ export default {
       "palate": "Creamy, raisins, dark chocolate, figs, marzipan, brazil nuts and vanilla.",
       "finish": "Oak and sherry notes sustain and mingle with hints of leather.",
       "description": "Like a storm gathering off the Kintyre coast, our 15-year-old Springbank is dark and ominous, yet delicious. Best enjoyed after dinner or with your favourite cigar, this is a true classic.",
-    },
-    {
-      "id": 14, "name": "Dalmore 18", "age": 18, "location": "Highland", "state": "Opened", isScotch: true, "abv": 43,
-      "nose": "Vanilla, dark chocolate, orange and cinnamon",
-      "palate": "Dark chocolate, candied citrus fruits, rich coffee, nutmeg and soft liquorice",
-      "finish": "Citrus fruits and rich molasses",
-      "description": "A magnificent whisky matured in American white oak ex-bourbon casks and aged Matusalem oloroso sherry casks.",
     },
     {
       "id": 15, "name": "Glenmorangie 10", "age": 10, "location": "Highland", "state": "Opened", isScotch: true, "abv": 40,
