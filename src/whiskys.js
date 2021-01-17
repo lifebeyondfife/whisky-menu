@@ -120,13 +120,6 @@ export default {
       "description": "Nestling in the heart of Speyside is the village of Aberlour where a source of exceptionally pure spring water known as St. Drostan's Well inspired James Fleming to build his distillery in 1879.<br />The richness of the natural environment combined with the soft and pure water creates Aberlour single malt, a distinctive whisky of generous character."
     },
     {
-      "id": 30, "name": "Redbreast 12", "age": 12, "location": "Ireland", "state": "Opened", isScotch: false, "abv": 40,
-      "nose": "A complex spicy and fruity aroma with toasted wood notes evident.",
-      "palate": "Full flavoured and complex; silky smooth with a harmonious balance of spicy, fruity, sherry and toasted notes.",
-      "finish": "Satisfyingly long, the complex flavours linger on the palate.",
-      "description": "Made from a mash of malted and unmalted barley and then triple distilled in copper pot stills, Redbreast 12 boasts the flavour complexity and distinctive qualities of Pot Still whiskey. Matured in a combination of Bourbon seasoned American Oak barrels and Oloroso Sherry seasoned Spanish oak butts, the distinctive Redbreast sherry style is a joy to behold in each and every bottle.",
-    },
-    {
       "id": 31, "name": "Arran 18", "age": 18, "location": "Highland", "state": "Opened", isScotch: true, "abv": 46,
       "appearance": "Deep amber",
       "nose": "Orchard fruits with syrup and toasted oak",
