@@ -1,4 +1,4 @@
-export default {
+ const whiskys = {
   whiskyList: [
     {
       "id":  8, "name": "Tamnavulin", "age": 3, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 40,
@@ -228,3 +228,5 @@ export default {
     }
   ]
 };
+
+export default whiskys;
