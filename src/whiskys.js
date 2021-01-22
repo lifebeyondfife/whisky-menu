@@ -25,13 +25,6 @@
       "description": "Aged in oak casks for at least sixteen years, this much sought-after single malt has the massive peat-smoke that's typical of southern Islay - but also offering a dryness that turns it into a truly interesting dram.",
     },
     {
-      "id": 13, "name": "Springbank 15", "age": 15, "location": "Campbeltown", "state": "Opened", isScotch: true, "abv": 46,
-      "nose": "Demerara sugar, dark chocolate, Christmas cake, almonds, toffee, oak.",
-      "palate": "Creamy, raisins, dark chocolate, figs, marzipan, brazil nuts and vanilla.",
-      "finish": "Oak and sherry notes sustain and mingle with hints of leather.",
-      "description": "Like a storm gathering off the Kintyre coast, our 15-year-old Springbank is dark and ominous, yet delicious. Best enjoyed after dinner or with your favourite cigar, this is a true classic.",
-    },
-    {
       "id": 15, "name": "Glenmorangie 10", "age": 10, "location": "Highland", "state": "Opened", isScotch: true, "abv": 40,
       "nose": "The scent of citrus and ripening peaches is softened by the aroma of vanilla.",
       "palate": "First, vanilla is detected on the tongue before it ripples along the palate bringing a burst of flowery fruitiness.",
@@ -225,7 +218,14 @@
       "palate": "Spicy at first but quickly sweetened with rich caramel, vanilla and butterscotch atop a deep layer of dried fruit.",
       "finish": "Lingering hints of dry fruit and caramelised wood sugar.",
       "description": "Slane Irish Whiskey is a smooth spirit of natural character with untamed notes of oak and spice from a signature triple casked blend.<br />From the family Conyngham of Slane Castle, the barrel-raising art of Brown-Forman, and the proud people of Slane Village, this is a whiskey for those living the stories that will be told for generations to come.",
-    }
+    },
+    {
+      "id": 47, "name": "Springbank 15", "age": 15, "location": "Campbeltown", "state": "Closed", isScotch: true, "abv": 46,
+      "nose": "Demerara sugar, dark chocolate, Christmas cake, almonds, toffee, oak.",
+      "palate": "Creamy, raisins, dark chocolate, figs, marzipan, brazil nuts and vanilla.",
+      "finish": "Oak and sherry notes sustain and mingle with hints of leather.",
+      "description": "Like a storm gathering off the Kintyre coast, our 15-year-old Springbank is dark and ominous, yet delicious. Best enjoyed after dinner or with your favourite cigar, this is a true classic.",
+    },
   ]
 };
 
