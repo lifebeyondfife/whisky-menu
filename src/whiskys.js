@@ -153,7 +153,7 @@
       "description": "After ceasing production in 2015, The GlenDronach Revival Aged 15 years now returns to the core range  of the distillery’s line-up. The expression embodies The GlenDronach’s signature style of Spanish Sherry  Cask maturation in fine Pedro Ximénez and Oloroso sherry casks from Andalucía, quietly growing in stature for 15 years in the darkness of our dunnage warehouses.<br />In flavour, the expression offers sumptuous notes of dark fruits, rich chocolate and manuka honey with  an enveloping, memorable finish worthy of this monumental malt’s history. This luxuriously sherried Highland Single Malt Scotch Whisky is bottled at 46% ABV, non chill filtered and natural in colour.",
     },
     {
-      "id": 38, "name": "Redbreast 12", "age": 12, "location": "Ireland", "state": "Closed", isScotch: false, "abv": 40,
+      "id": 38, "name": "Redbreast 12", "age": 12, "location": "Ireland", "state": "Opened", isScotch: false, "abv": 40,
       "nose": "A complex spicy and fruity aroma with toasted wood notes evident.",
       "palate": "Full flavoured and complex; silky smooth with a harmonious balance of spicy, fruity, sherry and toasted notes.",
       "finish": "Satisfyingly long, the complex flavours linger on the palate.",
@@ -220,7 +220,7 @@
       "description": "Slane Irish Whiskey is a smooth spirit of natural character with untamed notes of oak and spice from a signature triple casked blend.<br />From the family Conyngham of Slane Castle, the barrel-raising art of Brown-Forman, and the proud people of Slane Village, this is a whiskey for those living the stories that will be told for generations to come.",
     },
     {
-      "id": 47, "name": "Springbank 15", "age": 15, "location": "Campbeltown", "state": "Closed", isScotch: true, "abv": 46,
+      "id": 47, "name": "Springbank 15", "age": 15, "location": "Campbeltown", "state": "Opened", isScotch: true, "abv": 46,
       "nose": "Demerara sugar, dark chocolate, Christmas cake, almonds, toffee, oak.",
       "palate": "Creamy, raisins, dark chocolate, figs, marzipan, brazil nuts and vanilla.",
       "finish": "Oak and sherry notes sustain and mingle with hints of leather.",
