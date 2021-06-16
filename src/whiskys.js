@@ -59,14 +59,6 @@
       "description": "While the practice of maturing whiskey in sherry casks isn’t as long-standing as peated whiskies, it has become a standard of old world sensibilities. We celebrate this custom by filling hogsheads and butts sourced from the same region the Scottish find their casks. But what we do with them differs. Again, our five-malt spirit plays a significant role, allowing us to balance the sherry influence with our local malted barley flavor. We have our sherry casks shipped whole, which is unusual in the business of whiskey. This provides a sherry character that is still incredibly vibrant in this whiskey, but we always ensure the barley notes have an equal voice, something rarely done in Scotland.",
     },
     {
-      "id": 23, "name": "GlenDronach 12 Original", "age": 12, "location": "Highland", "state": "Opened", isScotch: true, "abv": 43,
-      "appearance": "Deep amber-red gold.",
-      "nose": "Sweet, creamy vanilla, with hints of ginger. Spiced mulled wine and pear.",
-      "palate": "Rich, creamy, silky-smooth. Warm, rich oak and sherry sweetness, full mouth feel, raisins and soft fruits. Spicy with medium length and a dry finish.",
-      "finish": "Long, full and firm, slightly nutty.",
-      "description": "This superb richly sherried single malt is matured for at least 12 years in a combination of the finest Spanish Pedro Ximenez and Oloroso sherry casks. Non-chill filtered, of natural colour and bottled at 43%, the GlenDronach 12 year old Original is a sweet, creamy dram.",
-    },
-    {
       "id": 24, "name": "GlenDronach 12 Original", "age": 12, "location": "Highland", "state": "Closed", isScotch: true, "abv": 43,
       "appearance": "Deep amber-red gold.",
       "nose": "Sweet, creamy vanilla, with hints of ginger. Spiced mulled wine and pear.",
@@ -96,13 +88,6 @@
       "nose": "The initial rush of rich vanilla sweetness gives way to a touch of cinnamon which adds a spicy edge to the soft and sweet texture. The classic Arran citrus notes have rounded with age and reveal new depths of character against a background of sweet oak.",
       "palate": "Sweetness, Apple, Citrus, Cinnamon.",
       "description": "The classic expression of Arran - our fresh and unique island style is captured beautifully in our 10 Year Old Single Malt. It is beautifully presented in a brand new pack and is most definitely your best introduction to Arran Single Malt.",
-    },
-    {
-      "id": 28, "name": "GlenDronach 15 Revival", "age": 15, "location": "Highland", "state": "Opened", isScotch: true, "abv": 46,
-      "appearance": "Antique Bronze.",
-      "nose": "An intoxicating burst of maraschino cherry, ripe bramble and dark chocolate mint with hints of orange bitters and walnut liqueur.",
-      "palate": "Honey-glazed apricot and ripe fig with a crescendo of black cherry, angelica and muscovado. Long and enveloping finish with dark manuka honey, herbal bitters and dark chocolate.",
-      "description": "After ceasing production in 2015, The GlenDronach Revival Aged 15 years now returns to the core range  of the distillery’s line-up. The expression embodies The GlenDronach’s signature style of Spanish Sherry  Cask maturation in fine Pedro Ximénez and Oloroso sherry casks from Andalucía, quietly growing in stature for 15 years in the darkness of our dunnage warehouses.<br />In flavour, the expression offers sumptuous notes of dark fruits, rich chocolate and manuka honey with  an enveloping, memorable finish worthy of this monumental malt’s history. This luxuriously sherried Highland Single Malt Scotch Whisky is bottled at 46% ABV, non chill filtered and natural in colour.",
     },
     {
       "id": 29, "name": "Aberlour 10", "age": 10, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 40,
@@ -284,6 +269,37 @@
       "palate": "Creamy, raisins, dark chocolate, figs, marzipan, brazil nuts and vanilla.",
       "finish": "Oak and sherry notes sustain and mingle with hints of leather.",
       "description": "Like a storm gathering off the Kintyre coast, our 15-year-old Springbank is dark and ominous, yet delicious. Best enjoyed after dinner or with your favourite cigar, this is a true classic.",
+    },
+    {
+      "id": 56, "name": "GlenDronach 12 Original", "age": 12, "location": "Highland", "state": "Closed", isScotch: true, "abv": 43,
+      "appearance": "Deep amber-red gold.",
+      "nose": "Sweet, creamy vanilla, with hints of ginger. Spiced mulled wine and pear.",
+      "palate": "Rich, creamy, silky-smooth. Warm, rich oak and sherry sweetness, full mouth feel, raisins and soft fruits. Spicy with medium length and a dry finish.",
+      "finish": "Long, full and firm, slightly nutty.",
+      "description": "This superb richly sherried single malt is matured for at least 12 years in a combination of the finest Spanish Pedro Ximenez and Oloroso sherry casks. Non-chill filtered, of natural colour and bottled at 43%, the GlenDronach 12 year old Original is a sweet, creamy dram.",
+    },
+    {
+      "id": 57, "name": "GlenDronach 18 Allardice", "age": 18, "location": "Highland", "state": "Closed", isScotch: true, "abv": 46,
+      "appearance": "Bright deep gold with a tawny centre.",
+      "nose": "Sweet aromatics of fudge and Muscovado sugar. Fruit compote and glacier morello cherries provide added complexity.",
+      "palate": "Rich dark and seductive. Remarkable flavours of stewed fruits and all-spice marry together with classic aged Oloroso sherry and toasted walnut bread combined with chocolate orange.",
+      "finish": "Tremendously complex and long.",
+      "description": "The GlenDronach 18 years old has been named after the renowned founder of the distillery, James Allardice. This exceptional sherried single malt is non chill filtered and of natural colour. Matured in the finest Spanish Oloroso sherry casks and bottled at 46%, this sublime richly sherried malt is truly unforgettable.",
+    },
+    {
+      "id": 58, "name": "GlenDronach 15 Revival", "age": 15, "location": "Highland", "state": "Closed", isScotch: true, "abv": 46,
+      "appearance": "Antique Bronze.",
+      "nose": "An intoxicating burst of maraschino cherry, ripe bramble and dark chocolate mint with hints of orange bitters and walnut liqueur.",
+      "palate": "Honey-glazed apricot and ripe fig with a crescendo of black cherry, angelica and muscovado. Long and enveloping finish with dark manuka honey, herbal bitters and dark chocolate.",
+      "description": "After ceasing production in 2015, The GlenDronach Revival Aged 15 years now returns to the core range  of the distillery’s line-up. The expression embodies The GlenDronach’s signature style of Spanish Sherry  Cask maturation in fine Pedro Ximénez and Oloroso sherry casks from Andalucía, quietly growing in stature for 15 years in the darkness of our dunnage warehouses.<br />In flavour, the expression offers sumptuous notes of dark fruits, rich chocolate and manuka honey with  an enveloping, memorable finish worthy of this monumental malt’s history. This luxuriously sherried Highland Single Malt Scotch Whisky is bottled at 46% ABV, non chill filtered and natural in colour.",
+    },
+    {
+      "id": 59, "name": "GlenDronach 21 Parliament", "age": 21, "location": "Highland", "state": "Closed", isScotch: true, "abv": 48,
+      "appearance": "Deep amber with a cherry wood sheen.",
+      "nose": "A delicate mix of ripe autumnal fruits - notably blackberries and red plums. Rich Oloroso sherry and candied orange segments. Spiced oatmeal biscuits and toasted oak fragrances bring excellent weight and balance.",
+      "palate": "Resolute flavours of fine Oloroso sherry and bitter chocolate sauce, which has been spread liberally over homemade plum pudding. This is all infused with fabulous spicy notes - cinnamon, allspice and nutmeg. Full bodied with smooth tannins.",
+      "finish": "Long and lingering.",
+      "description": "Matured in a combination of the finest Oloroso and Pedro Ximenez sherry casks for a minimum of 21 years, the ‘Parliament’ continues the great GlenDronach tradition of offering fruit-laden intensity in its single malts. This rich expression has been named ‘Parliament’ after the colony, or ‘parliament’, of rooks that have been nesting in the trees that overlook the GlenDronach distillery for almost 200 years. Bottled at 48%, the ‘Parliament’ is non chill filtered and of natural colour.",
     },
   ]
 };
