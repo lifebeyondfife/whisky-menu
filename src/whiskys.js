@@ -39,14 +39,6 @@
       "description": "The original expression of our elegant, floral spirit and the real backbone of the Glenmorangie range. A ten-year-old single malt, Glenmorangie Original is produced by marrying the delicate spirit that emerges from Scotland's tallest stills, with first and second fill American white oak casks.<br />It is here, maturing for ten long years in a range of ex-bourbon casks such as our famous slow-grown and air-dried 'designer casks' from Missouri, that our raw spirit develops a perfect balance between sweetness and complexity. Resulting in a mature spirit that is soft, mellow and creamy. Perfect for enjoying at any time.",
     },
     {
-      "id": 18, "name": "GlenDronach 18 Allardice", "age": 18, "location": "Highland", "state": "Opened", isScotch: true, "abv": 46,
-      "appearance": "Bright deep gold with a tawny centre.",
-      "nose": "Sweet aromatics of fudge and Muscovado sugar. Fruit compote and glacier morello cherries provide added complexity.",
-      "palate": "Rich dark and seductive. Remarkable flavours of stewed fruits and all-spice marry together with classic aged Oloroso sherry and toasted walnut bread combined with chocolate orange.",
-      "finish": "Tremendously complex and long.",
-      "description": "The GlenDronach 18 years old has been named after the renowned founder of the distillery, James Allardice. This exceptional sherried single malt is non chill filtered and of natural colour. Matured in the finest Spanish Oloroso sherry casks and bottled at 46%, this sublime richly sherried malt is truly unforgettable.",
-    },
-    {
       "id": 19, "name": "Oban 14", "age": 14, "location": "Highland", "state": "Opened", isScotch: true, "abv": 43,
       "nose": "Fresh oranges, lemons, and pears, with a hint of salt and peat.",
       "palate": "Dried fig, spice, and a smoked malt dryness.",
@@ -80,14 +72,6 @@
       "palate": "Rich, creamy, silky-smooth. Warm, rich oak and sherry sweetness, full mouth feel, raisins and soft fruits. Spicy with medium length and a dry finish.",
       "finish": "Long, full and firm, slightly nutty.",
       "description": "This superb richly sherried single malt is matured for at least 12 years in a combination of the finest Spanish Pedro Ximenez and Oloroso sherry casks. Non-chill filtered, of natural colour and bottled at 43%, the GlenDronach 12 year old Original is a sweet, creamy dram.",
-    },
-    {
-      "id": 25, "name": "GlenDronach 21 Parliament", "age": 21, "location": "Highland", "state": "Opened", isScotch: true, "abv": 48,
-      "appearance": "Deep amber with a cherry wood sheen.",
-      "nose": "A delicate mix of ripe autumnal fruits - notably blackberries and red plums. Rich Oloroso sherry and candied orange segments. Spiced oatmeal biscuits and toasted oak fragrances bring excellent weight and balance.",
-      "palate": "Resolute flavours of fine Oloroso sherry and bitter chocolate sauce, which has been spread liberally over homemade plum pudding. This is all infused with fabulous spicy notes - cinnamon, allspice and nutmeg. Full bodied with smooth tannins.",
-      "finish": "Long and lingering.",
-      "description": "Matured in a combination of the finest Oloroso and Pedro Ximenez sherry casks for a minimum of 21 years, the ‘Parliament’ continues the great GlenDronach tradition of offering fruit-laden intensity in its single malts. This rich expression has been named ‘Parliament’ after the colony, or ‘parliament’, of rooks that have been nesting in the trees that overlook the GlenDronach distillery for almost 200 years. Bottled at 48%, the ‘Parliament’ is non chill filtered and of natural colour.",
     },
     {
       "id": 26, "name": "Suntory Yamazaki 12", "age": 12, "location": "Japan", "state": "Closed", isScotch: false, "abv": 43,
@@ -225,6 +209,14 @@
       "palate": "Spicy at first but quickly sweetened with rich caramel, vanilla and butterscotch atop a deep layer of dried fruit.",
       "finish": "Lingering hints of dry fruit and caramelised wood sugar.",
       "description": "Slane Irish Whiskey is a smooth spirit of natural character with untamed notes of oak and spice from a signature triple casked blend.<br />From the family Conyngham of Slane Castle, the barrel-raising art of Brown-Forman, and the proud people of Slane Village, this is a whiskey for those living the stories that will be told for generations to come.",
+    },
+    {
+      "id": 47, "name": "Glen Moray", "age": 3, "location": "Speyside", "state": "Closed", isScotch: true, "abv": 40,
+      "appearance": "Light Gold.",
+      "nose": "Citrus fruits, butterscotch and warm freshly baked shortbread.",
+      "palate": "Malty toffee sweetness with blackcurrant and a fragrant lemongrass citrus edge.",
+      "finish": "Comforting and warm. Caramelised citrus fruits drift away to expose subtle spice.",
+      "description": "Light, smooth and fruity, our Classic is the perfect introduction to the world of single malt Scotch whisky. Encapsulating the flavours for which Glen Moray and indeed Speyside itself is loved for around the world. Approachable and easy drinking, matured entirely in American oak casks, our Classic opens the door to discovering the rest of Glen Moray's whiskies.",
     }
   ]
 };
