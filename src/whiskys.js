@@ -51,7 +51,7 @@
       "description": "While the practice of maturing whiskey in sherry casks isn’t as long-standing as peated whiskies, it has become a standard of old world sensibilities. We celebrate this custom by filling hogsheads and butts sourced from the same region the Scottish find their casks. But what we do with them differs. Again, our five-malt spirit plays a significant role, allowing us to balance the sherry influence with our local malted barley flavor. We have our sherry casks shipped whole, which is unusual in the business of whiskey. This provides a sherry character that is still incredibly vibrant in this whiskey, but we always ensure the barley notes have an equal voice, something rarely done in Scotland.",
     },
     {
-      "id": 24, "name": "GlenDronach 12 Original", "age": 12, "location": "Highland", "state": "Closed", isScotch: true, "abv": 43,
+      "id": 24, "name": "GlenDronach 12 Original", "age": 12, "location": "Highland", "state": "Opened", isScotch: true, "abv": 43,
       "appearance": "Deep amber-red gold.",
       "nose": "Sweet, creamy vanilla, with hints of ginger. Spiced mulled wine and pear.",
       "palate": "Rich, creamy, silky-smooth. Warm, rich oak and sherry sweetness, full mouth feel, raisins and soft fruits. Spicy with medium length and a dry finish.",
@@ -96,7 +96,7 @@
       "description": "The 18 Years Old is a single malt Scotch whisky of serious distinction. Once it has spent fifteen years maturing in American white oak casks approximately 30% is transferred into Spanish Oloroso casks to spend a further three years maturing. Then, when both elements have reached 18 years, we blend them back together to create a whisky with a rich bouquet and full, rounded flavour. For a whisky of this age this expression has maintained, thanks to our delicate floral spirit and fine Oloroso casks, an incredible degree of vibrancy where the raisiny sweetness of the sherry has been toned down by the nuttiness of the American oak.",
     },
     {
-      "id": 33, "name": "GlenDronach 18 Allardice", "age": 18, "location": "Highland", "state": "Closed", isScotch: true, "abv": 46,
+      "id": 33, "name": "GlenDronach 18 Allardice", "age": 18, "location": "Highland", "state": "Opened", isScotch: true, "abv": 46,
       "appearance": "Bright deep gold with a tawny centre.",
       "nose": "Sweet aromatics of fudge and Muscovado sugar. Fruit compote and glacier morello cherries provide added complexity.",
       "palate": "Rich dark and seductive. Remarkable flavours of stewed fruits and all-spice marry together with classic aged Oloroso sherry and toasted walnut bread combined with chocolate orange.",
@@ -115,7 +115,7 @@
       "description": "The perfect introduction to the Isle of Islay, Port Askaig 8 Year Old has a soft, sweet peaty character balanced to perfection. Ageing in refill American oak allows the character of the spirit to shine through, making for a gentle, smoky, moreish dram.",
     },
     {
-      "id": 37, "name": "GlenDronach 15 Revival", "age": 15, "location": "Highland", "state": "Closed", isScotch: true, "abv": 46,
+      "id": 37, "name": "GlenDronach 15 Revival", "age": 15, "location": "Highland", "state": "Opened", isScotch: true, "abv": 46,
       "appearance": "Antique Bronze.",
       "nose": "An intoxicating burst of maraschino cherry, ripe bramble and dark chocolate mint with hints of orange bitters and walnut liqueur.",
       "palate": "Honey-glazed apricot and ripe fig with a crescendo of black cherry, angelica and muscovado. Long and enveloping finish with dark manuka honey, herbal bitters and dark chocolate.",
@@ -135,14 +135,6 @@
       "palate": "Coconut, cranberry, butter",
       "finish": "Sweet ginger, cinnamon, long finish",
       "description": "Succulent with soft fruit.",
-    },
-    {
-      "id": 40, "name": "GlenDronach 21 Parliament", "age": 21, "location": "Highland", "state": "Closed", isScotch: true, "abv": 48,
-      "appearance": "Deep amber with a cherry wood sheen.",
-      "nose": "A delicate mix of ripe autumnal fruits - notably blackberries and red plums. Rich Oloroso sherry and candied orange segments. Spiced oatmeal biscuits and toasted oak fragrances bring excellent weight and balance.",
-      "palate": "Resolute flavours of fine Oloroso sherry and bitter chocolate sauce, which has been spread liberally over homemade plum pudding. This is all infused with fabulous spicy notes - cinnamon, allspice and nutmeg. Full bodied with smooth tannins.",
-      "finish": "Long and lingering.",
-      "description": "Matured in a combination of the finest Oloroso and Pedro Ximenez sherry casks for a minimum of 21 years, the ‘Parliament’ continues the great GlenDronach tradition of offering fruit-laden intensity in its single malts. This rich expression has been named ‘Parliament’ after the colony, or ‘parliament’, of rooks that have been nesting in the trees that overlook the GlenDronach distillery for almost 200 years. Bottled at 48%, the ‘Parliament’ is non chill filtered and of natural colour.",
     },
     {
       "id":  41, "name": "Hazelburn 10", "age": 10, "location": "Campbeltown", "state": "Opened", isScotch: true, "abv": 46,
@@ -286,7 +278,7 @@
       "description": "Matured in a combination of the finest Oloroso and Pedro Ximenez sherry casks for a minimum of 21 years, the ‘Parliament’ continues the great GlenDronach tradition of offering fruit-laden intensity in its single malts. This rich expression has been named ‘Parliament’ after the colony, or ‘parliament’, of rooks that have been nesting in the trees that overlook the GlenDronach distillery for almost 200 years. Bottled at 48%, the ‘Parliament’ is non chill filtered and of natural colour.",
     },
     {
-      "id": 60, "name": "Glen Moray", "age": 3, "location": "Speyside", "state": "Closed", isScotch: true, "abv": 40,
+      "id": 60, "name": "Glen Moray", "age": 3, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 40,
       "appearance": "Light Gold.",
       "nose": "Citrus fruits, butterscotch and warm freshly baked shortbread.",
       "palate": "Malty toffee sweetness with blackcurrant and a fragrant lemongrass citrus edge.",
