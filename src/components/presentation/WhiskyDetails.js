@@ -1,6 +1,6 @@
 import React from 'react';
 import './WhiskyDetails.css';
-import ReactHtmlParser from 'react-html-parser'; 
+import HTMLReactParser from 'html-react-parser'; 
 
 class WhiskyDetails extends React.Component {
   render() {
@@ -50,7 +50,7 @@ class WhiskyDetails extends React.Component {
             {finish}
           </tbody>
         </table>
-        <p>{ReactHtmlParser(this.props.whisky.description)}</p>
+        <p>{HTMLReactParser(this.props.whisky.description)}</p>
       </div>
     );
   }
