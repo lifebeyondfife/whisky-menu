@@ -67,13 +67,6 @@
       "description": "Succulent with soft fruit.",
     },
     {
-      "id": 27, "name": "Arran 10", "age": 10, "location": "Highland", "state": "Opened", isScotch: true, "abv": 46,
-      "appearance": "Ripe Golden Barley",
-      "nose": "The initial rush of rich vanilla sweetness gives way to a touch of cinnamon which adds a spicy edge to the soft and sweet texture. The classic Arran citrus notes have rounded with age and reveal new depths of character against a background of sweet oak.",
-      "palate": "Sweetness, Apple, Citrus, Cinnamon.",
-      "description": "The classic expression of Arran - our fresh and unique island style is captured beautifully in our 10 Year Old Single Malt. It is beautifully presented in a brand new pack and is most definitely your best introduction to Arran Single Malt.",
-    },
-    {
       "id": 29, "name": "Aberlour 10", "age": 10, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 40,
       "appearance": "Gold.",
       "nose": "The dry, fresh, fruity aromas of early autumn apples and pears are subtly enhanced with sweet notes of vanilla and mint toffee.",
