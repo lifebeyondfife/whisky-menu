@@ -75,13 +75,6 @@
       "description": "Nestling in the heart of Speyside is the village of Aberlour where a source of exceptionally pure spring water known as St. Drostan's Well inspired James Fleming to build his distillery in 1879.<br />The richness of the natural environment combined with the soft and pure water creates Aberlour single malt, a distinctive whisky of generous character."
     },
     {
-      "id": 31, "name": "Arran 18", "age": 18, "location": "Highland", "state": "Opened", isScotch: true, "abv": 46,
-      "appearance": "Deep amber",
-      "nose": "Orchard fruits with syrup and toasted oak",
-      "palate": "Sweetness, Spice, Citrus, Baked peaches.",
-      "description": "The Arran 18 year-old is the one of the most popular expressions in our core range of single malts and an expression of which we are very proud",
-    },
-    {
       "id": 32, "name": "Glenmorangie 18", "age": 18, "location": "Highland", "state": "Closed", isScotch: true, "abv": 43,
       "nose": "Rich, rounded and sweet with dried fruits and a complex floral fragrance.",
       "palate": "The taste is balanced between honey, malt and flowery scents. Dates and figs emerge in the background with a hint of wood smoke.",
@@ -142,13 +135,6 @@
       "palate": "Rich with elegant oak and subtle spice.",
       "finish": "Long, sherried finish.",
       "description": "The Balvenie Single Barrel Sherry Cask has been matured exclusively in a single European oak sherry butt for at least 15 years. The term ‘Single Barrel’ conveys the unique nature of the single malt whisky, which has been drawn from a single cask of a single distillation.<br />Limited by nature, each heavily toasted European oak Oloroso sherry butt will yield no more than 800 bottles of Scotch whisky.",
-    },
-    {
-      "id": 43, "name": "BenRiach 12", "age": 12, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 46,
-      "appearance": "Deep golden-bronze.",
-      "nose": "Sherry cask maturation at its most fruity and luscious. Baked fruit salad with fig, pear, apricot and glacé cherry in mandarin syrup. Honey glazed flan with crème-caramel and toasted vanilla pod add to the multi-layered sweetness.",
-      "palate": "A rich fruit cocktail of honeyed fig, baked pineapple and sultana fused with chocolate fondant and muscovado sugar, lifted by mandarin cream, ground nutmeg and vanilla. On the finish savour nectarine, candied grape and star anise, lingering into the dessert-like sherried finish.",
-      "description": "At BenRiach Distillery we have developed a reputation for innovative maturation, using a diverse mix of cask types. This luscious 12 year old Single Malt Scotch Whisky is unconventionally made using three facets of sherry cask maturation: full sherry cask maturation, combined with Pedro Ximénez and Oloroso sherry cask finishing, for unexpected layers of fruit sweetness and toasted oak spice. Each facet of sherry cask maturation is expertly combined by our Master Blender to work in harmony, creating a luscious Single Malt Scotch Whisky with a multi- layered cocktail of fruit notes, further enriching BenRiach’s signature sweet, fruit-laden style.<br />Bottled at 46%, non-chill filtered and of natural colour.",
     },
     {
       "id": 44, "name": "Glen Scotia 18", "age": 18, "location": "Campbeltown", "state": "Opened", isScotch: true, "abv": 46,
@@ -277,6 +263,14 @@
       "palate": "Malty toffee sweetness with blackcurrant and a fragrant lemongrass citrus edge.",
       "finish": "Comforting and warm. Caramelised citrus fruits drift away to expose subtle spice.",
       "description": "Light, smooth and fruity, our Classic is the perfect introduction to the world of single malt Scotch whisky. Encapsulating the flavours for which Glen Moray and indeed Speyside itself is loved for around the world. Approachable and easy drinking, matured entirely in American oak casks, our Classic opens the door to discovering the rest of Glen Moray's whiskies.",
+    },
+    {
+      "id": 61, "name": "Laphroaig Select", "age": 3, "location": "Islay", "state": "Closed", isScotch: true, "abv": 40,
+      "appearance": "A sparkling gold with layers of colour.",
+      "nose": "Peat first, then ripe red fruits with a hint of dryness.",
+      "palate": "Sweet up front then classic dry, peaty, ashy flavours followed by a rich finish.",
+      "finish": "Long lingering and florally with marzipan and limes at the end.",
+      "description": "This Laphroaig is created from carefully selected casks of each of our key styles. Mostly, these are historic styles, with one notable addition: the heart of the spirit is drawn from a final maturation in American oak casks – rarely used for scotch whisky.<br />With spirit selected by our master distiller from Quarter Cask, our PX Cask and Triple Wood (Oloroso sherry) and a final addition of 10 Year Old, it represents a subtle blending of peat, oak and sweetness.<br />Sparkling gold with layers of colour, the result is an exquisite Laphroaig with our trademark ‘peat reek’ matched by an additional layer of complexity and depth brought about by the fusion of the maturation styles and different oaks.",
     },
   ]
 };
