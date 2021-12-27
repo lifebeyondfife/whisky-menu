@@ -32,13 +32,6 @@
       "description": "The original expression of our elegant, floral spirit and the real backbone of the Glenmorangie range. A ten-year-old single malt, Glenmorangie Original is produced by marrying the delicate spirit that emerges from Scotland's tallest stills, with first and second fill American white oak casks.<br />It is here, maturing for ten long years in a range of ex-bourbon casks such as our famous slow-grown and air-dried 'designer casks' from Missouri, that our raw spirit develops a perfect balance between sweetness and complexity. Resulting in a mature spirit that is soft, mellow and creamy. Perfect for enjoying at any time.",
     },
     {
-      "id": 19, "name": "Oban 14", "age": 14, "location": "Highland", "state": "Opened", isScotch: true, "abv": 43,
-      "nose": "Fresh oranges, lemons, and pears, with a hint of salt and peat.",
-      "palate": "Dried fig, spice, and a smoked malt dryness.",
-      "finish": "Long, smooth, and oaky sweet with a grain of salt.",
-      "description": "Flavours of orange peel, smoke, sea salt, and honey distinguish this full-bodied highland malt.",
-    },
-    {
       "id": 21, "name": "Westland's Sherry Wood", "age": 3, "location": "USA", "state": "Opened", isScotch: false, "abv": 46,
       "nose": "Honey-dipped oatmeal raisin cookies, maple syrup, banana pancakes.",
       "palate": "Kiwi, maple syrup, raisins, sweet cookies, pastries, stewed yellow fruits.",
