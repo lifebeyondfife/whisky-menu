@@ -32,12 +32,6 @@
       "description": "The original expression of our elegant, floral spirit and the real backbone of the Glenmorangie range. A ten-year-old single malt, Glenmorangie Original is produced by marrying the delicate spirit that emerges from Scotland's tallest stills, with first and second fill American white oak casks.<br />It is here, maturing for ten long years in a range of ex-bourbon casks such as our famous slow-grown and air-dried 'designer casks' from Missouri, that our raw spirit develops a perfect balance between sweetness and complexity. Resulting in a mature spirit that is soft, mellow and creamy. Perfect for enjoying at any time.",
     },
     {
-      "id": 21, "name": "Westland's Sherry Wood", "age": 3, "location": "USA", "state": "Opened", isScotch: false, "abv": 46,
-      "nose": "Honey-dipped oatmeal raisin cookies, maple syrup, banana pancakes.",
-      "palate": "Kiwi, maple syrup, raisins, sweet cookies, pastries, stewed yellow fruits.",
-      "description": "While the practice of maturing whiskey in sherry casks isn’t as long-standing as peated whiskies, it has become a standard of old world sensibilities. We celebrate this custom by filling hogsheads and butts sourced from the same region the Scottish find their casks. But what we do with them differs. Again, our five-malt spirit plays a significant role, allowing us to balance the sherry influence with our local malted barley flavor. We have our sherry casks shipped whole, which is unusual in the business of whiskey. This provides a sherry character that is still incredibly vibrant in this whiskey, but we always ensure the barley notes have an equal voice, something rarely done in Scotland.",
-    },
-    {
       "id": 22, "name": "Westland's Sherry Wood", "age": 3, "location": "USA", "state": "Closed", isScotch: false, "abv": 46,
       "nose": "Honey-dipped oatmeal raisin cookies, maple syrup, banana pancakes.",
       "palate": "Kiwi, maple syrup, raisins, sweet cookies, pastries, stewed yellow fruits.",
@@ -58,14 +52,6 @@
       "palate": "Coconut, cranberry, butter",
       "finish": "Sweet ginger, cinnamon, long finish",
       "description": "Succulent with soft fruit.",
-    },
-    {
-      "id": 29, "name": "Aberlour 10", "age": 10, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 40,
-      "appearance": "Gold.",
-      "nose": "The dry, fresh, fruity aromas of early autumn apples and pears are subtly enhanced with sweet notes of vanilla and mint toffee.",
-      "palate": "Exceptionally smooth and creamy, with spicy-sweet nutmeg and honey combining with the freshness of autumn fruits.",
-      "finish": "Long, soft and warming.",
-      "description": "Nestling in the heart of Speyside is the village of Aberlour where a source of exceptionally pure spring water known as St. Drostan's Well inspired James Fleming to build his distillery in 1879.<br />The richness of the natural environment combined with the soft and pure water creates Aberlour single malt, a distinctive whisky of generous character."
     },
     {
       "id": 32, "name": "Glenmorangie 18", "age": 18, "location": "Highland", "state": "Closed", isScotch: true, "abv": 43,
@@ -114,20 +100,6 @@
       "nose": "Sherry cask maturation at its most fruity and luscious. Baked fruit salad with fig, pear, apricot and glacé cherry in mandarin syrup. Honey glazed flan with crème-caramel and toasted vanilla pod add to the multi-layered sweetness.",
       "palate": "A rich fruit cocktail of honeyed fig, baked pineapple and sultana fused with chocolate fondant and muscovado sugar, lifted by mandarin cream, ground nutmeg and vanilla. On the finish savour nectarine, candied grape and star anise, lingering into the dessert-like sherried finish.",
       "description": "At BenRiach Distillery we have developed a reputation for innovative maturation, using a diverse mix of cask types. This luscious 12 year old Single Malt Scotch Whisky is unconventionally made using three facets of sherry cask maturation: full sherry cask maturation, combined with Pedro Ximénez and Oloroso sherry cask finishing, for unexpected layers of fruit sweetness and toasted oak spice. Each facet of sherry cask maturation is expertly combined by our Master Blender to work in harmony, creating a luscious Single Malt Scotch Whisky with a multi- layered cocktail of fruit notes, further enriching BenRiach’s signature sweet, fruit-laden style.<br />Bottled at 46%, non-chill filtered and of natural colour.",
-    },
-    {
-      "id":  41, "name": "Hazelburn 10", "age": 10, "location": "Campbeltown", "state": "Opened", isScotch: true, "abv": 46,
-      "nose": "Stewed pears and baked apples are followed by honeycomb and fudge notes.",
-      "palate": "A lovely and rich whisky with vanilla and honey flavours, liquorice follows with a refreshing zestiness.",
-      "finish": "A refined milk chocolate cream finish that is oily and chewy.",
-      "description": "Rich in flavour, our Hazelburn 10-year-old is awash with scents and flavours that will delight.",
-    },
-    {
-      "id":  42, "name": "Balvenie 15 Sherry Barrel", "age": 15, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 47.8,
-      "nose": "Dried fruits overlaid with a gentle nuttiness.",
-      "palate": "Rich with elegant oak and subtle spice.",
-      "finish": "Long, sherried finish.",
-      "description": "The Balvenie Single Barrel Sherry Cask has been matured exclusively in a single European oak sherry butt for at least 15 years. The term ‘Single Barrel’ conveys the unique nature of the single malt whisky, which has been drawn from a single cask of a single distillation.<br />Limited by nature, each heavily toasted European oak Oloroso sherry butt will yield no more than 800 bottles of Scotch whisky.",
     },
     {
       "id": 44, "name": "Glen Scotia 18", "age": 18, "location": "Campbeltown", "state": "Opened", isScotch: true, "abv": 46,
@@ -229,7 +201,7 @@
       "description": "Light, smooth and fruity, our Classic is the perfect introduction to the world of single malt Scotch whisky. Encapsulating the flavours for which Glen Moray and indeed Speyside itself is loved for around the world. Approachable and easy drinking, matured entirely in American oak casks, our Classic opens the door to discovering the rest of Glen Moray's whiskies.",
     },
     {
-      "id": 61, "name": "Laphroaig Select", "age": 3, "location": "Islay", "state": "Closed", isScotch: true, "abv": 40,
+      "id": 61, "name": "Laphroaig Select", "age": 3, "location": "Islay", "state": "Opened", isScotch: true, "abv": 40,
       "appearance": "A sparkling gold with layers of colour.",
       "nose": "Peat first, then ripe red fruits with a hint of dryness.",
       "palate": "Sweet up front then classic dry, peaty, ashy flavours followed by a rich finish.",
