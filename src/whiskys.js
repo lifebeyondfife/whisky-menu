@@ -83,13 +83,6 @@
       "description": "The GlenDronach 18 years old has been named after the renowned founder of the distillery, James Allardice. This exceptional sherried single malt is non chill filtered and of natural colour. Matured in the finest Spanish Oloroso sherry casks and bottled at 46%, this sublime richly sherried malt is truly unforgettable.",
     },
     {
-      "id": 34, "name": "Old Pulteney 17", "age": 17, "location": "Highland", "state": "Opened", isScotch: true, "abv": 46,
-      "appearance": "Red amber with a rich ochre hue.",
-      "nose": "Sweet with traces of apples and pears: slightly woody with a hint of butterscotch.",
-      "palate": "Sweet with soft fruits: kiwi, guava, peach.",
-      "description": "Aged in both American and Spanish oak casks, the mid-range Old Pulteney 17 Year Old strikes the perfect balance between maturity and the distillery’s signature coastal style, winning hearts of whisky enthusiasts the world over.",
-    },
-    {
       "id": 36, "name": "Port Askaig 8", "age": 8, "location": "Islay", "state": "Opened", isScotch: true, "abv": 45.8,
       "description": "The perfect introduction to the Isle of Islay, Port Askaig 8 Year Old has a soft, sweet peaty character balanced to perfection. Ageing in refill American oak allows the character of the spirit to shine through, making for a gentle, smoky, moreish dram.",
     },
@@ -114,6 +107,13 @@
       "palate": "Coconut, cranberry, butter",
       "finish": "Sweet ginger, cinnamon, long finish",
       "description": "Succulent with soft fruit.",
+    },
+    {
+      "id": 43, "name": "BenRiach 12", "age": 12, "location": "Speyside", "state": "Opened", isScotch: true, "abv": 46,
+      "appearance": "Deep golden-bronze.",
+      "nose": "Sherry cask maturation at its most fruity and luscious. Baked fruit salad with fig, pear, apricot and glacé cherry in mandarin syrup. Honey glazed flan with crème-caramel and toasted vanilla pod add to the multi-layered sweetness.",
+      "palate": "A rich fruit cocktail of honeyed fig, baked pineapple and sultana fused with chocolate fondant and muscovado sugar, lifted by mandarin cream, ground nutmeg and vanilla. On the finish savour nectarine, candied grape and star anise, lingering into the dessert-like sherried finish.",
+      "description": "At BenRiach Distillery we have developed a reputation for innovative maturation, using a diverse mix of cask types. This luscious 12 year old Single Malt Scotch Whisky is unconventionally made using three facets of sherry cask maturation: full sherry cask maturation, combined with Pedro Ximénez and Oloroso sherry cask finishing, for unexpected layers of fruit sweetness and toasted oak spice. Each facet of sherry cask maturation is expertly combined by our Master Blender to work in harmony, creating a luscious Single Malt Scotch Whisky with a multi- layered cocktail of fruit notes, further enriching BenRiach’s signature sweet, fruit-laden style.<br />Bottled at 46%, non-chill filtered and of natural colour.",
     },
     {
       "id":  41, "name": "Hazelburn 10", "age": 10, "location": "Campbeltown", "state": "Opened", isScotch: true, "abv": 46,
@@ -145,33 +145,11 @@
       "description": "Slane Irish Whiskey is a smooth spirit of natural character with untamed notes of oak and spice from a signature triple casked blend.<br />From the family Conyngham of Slane Castle, the barrel-raising art of Brown-Forman, and the proud people of Slane Village, this is a whiskey for those living the stories that will be told for generations to come.",
     },
     {
-      "id": 46, "name": "Slane Irish Whiskey", "age": 3, "location": "Ireland", "state": "Closed", isScotch: false, "abv": 40,
-      "appearance": "A warm, golden topaz with hues of rich toffee.",
-      "nose": "Complex fruit with drizzles of caramel, butterscotch and vanilla; brown spice and toasted oak.",
-      "palate": "Spicy at first but quickly sweetened with rich caramel, vanilla and butterscotch atop a deep layer of dried fruit.",
-      "finish": "Lingering hints of dry fruit and caramelised wood sugar.",
-      "description": "Slane Irish Whiskey is a smooth spirit of natural character with untamed notes of oak and spice from a signature triple casked blend.<br />From the family Conyngham of Slane Castle, the barrel-raising art of Brown-Forman, and the proud people of Slane Village, this is a whiskey for those living the stories that will be told for generations to come.",
-    },
-    {
       "id": 47, "name": "Springbank 15", "age": 15, "location": "Campbeltown", "state": "Opened", isScotch: true, "abv": 46,
       "nose": "Demerara sugar, dark chocolate, Christmas cake, almonds, toffee, oak.",
       "palate": "Creamy, raisins, dark chocolate, figs, marzipan, brazil nuts and vanilla.",
       "finish": "Oak and sherry notes sustain and mingle with hints of leather.",
       "description": "Like a storm gathering off the Kintyre coast, our 15-year-old Springbank is dark and ominous, yet delicious. Best enjoyed after dinner or with your favourite cigar, this is a true classic.",
-    },
-    {
-      "id": 48, "name": "BenRiach 12", "age": 12, "location": "Speyside", "state": "Closed", isScotch: true, "abv": 46,
-      "appearance": "Deep golden-bronze.",
-      "nose": "Sherry cask maturation at its most fruity and luscious. Baked fruit salad with fig, pear, apricot and glacé cherry in mandarin syrup. Honey glazed flan with crème-caramel and toasted vanilla pod add to the multi-layered sweetness.",
-      "palate": "A rich fruit cocktail of honeyed fig, baked pineapple and sultana fused with chocolate fondant and muscovado sugar, lifted by mandarin cream, ground nutmeg and vanilla. On the finish savour nectarine, candied grape and star anise, lingering into the dessert-like sherried finish.",
-      "description": "At BenRiach Distillery we have developed a reputation for innovative maturation, using a diverse mix of cask types. This luscious 12 year old Single Malt Scotch Whisky is unconventionally made using three facets of sherry cask maturation: full sherry cask maturation, combined with Pedro Ximénez and Oloroso sherry cask finishing, for unexpected layers of fruit sweetness and toasted oak spice. Each facet of sherry cask maturation is expertly combined by our Master Blender to work in harmony, creating a luscious Single Malt Scotch Whisky with a multi- layered cocktail of fruit notes, further enriching BenRiach’s signature sweet, fruit-laden style.<br />Bottled at 46%, non-chill filtered and of natural colour.",
-    },
-    {
-      "id": 49, "name": "Glen Scotia 18", "age": 18, "location": "Campbeltown", "state": "Closed", isScotch: true, "abv": 46,
-      "nose": "Crisp saltiness, perfumed floral notes and thick sweet toffee.",
-      "palate": "Rich deep vanilla fruit flavours, apricot and pineapple, plump sultana.",
-      "finish": "Long and dry with gentle warming spice.",
-      "description": "An exceptional single malt whisky matured from specially selected casks that deliver the true character of a 18 year old Glen Scotia malt whisky.",
     },
     {
       "id": 50, "name": "GlenDronach 12 Original", "age": 12, "location": "Highland", "state": "Closed", isScotch: true, "abv": 43,
@@ -203,13 +181,6 @@
       "palate": "Resolute flavours of fine Oloroso sherry and bitter chocolate sauce, which has been spread liberally over homemade plum pudding. This is all infused with fabulous spicy notes - cinnamon, allspice and nutmeg. Full bodied with smooth tannins.",
       "finish": "Long and lingering.",
       "description": "Matured in a combination of the finest Oloroso and Pedro Ximenez sherry casks for a minimum of 21 years, the ‘Parliament’ continues the great GlenDronach tradition of offering fruit-laden intensity in its single malts. This rich expression has been named ‘Parliament’ after the colony, or ‘parliament’, of rooks that have been nesting in the trees that overlook the GlenDronach distillery for almost 200 years. Bottled at 48%, the ‘Parliament’ is non chill filtered and of natural colour.",
-    },
-    {
-      "id": 54, "name": "Redbreast 12", "age": 12, "location": "Ireland", "state": "Closed", isScotch: false, "abv": 40,
-      "nose": "A complex spicy and fruity aroma with toasted wood notes evident.",
-      "palate": "Full flavoured and complex; silky smooth with a harmonious balance of spicy, fruity, sherry and toasted notes.",
-      "finish": "Satisfyingly long, the complex flavours linger on the palate.",
-      "description": "Made from a mash of malted and unmalted barley and then triple distilled in copper pot stills, Redbreast 12 boasts the flavour complexity and distinctive qualities of Pot Still whiskey. Matured in a combination of Bourbon seasoned American Oak barrels and Oloroso Sherry seasoned Spanish oak butts, the distinctive Redbreast sherry style is a joy to behold in each and every bottle.",
     },
     {
       "id": 55, "name": "Springbank 15", "age": 15, "location": "Campbeltown", "state": "Closed", isScotch: true, "abv": 46,
