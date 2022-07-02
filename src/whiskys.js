@@ -208,6 +208,13 @@
       "finish": "Long lingering and florally with marzipan and limes at the end.",
       "description": "This Laphroaig is created from carefully selected casks of each of our key styles. Mostly, these are historic styles, with one notable addition: the heart of the spirit is drawn from a final maturation in American oak casks – rarely used for scotch whisky.<br />With spirit selected by our master distiller from Quarter Cask, our PX Cask and Triple Wood (Oloroso sherry) and a final addition of 10 Year Old, it represents a subtle blending of peat, oak and sweetness.<br />Sparkling gold with layers of colour, the result is an exquisite Laphroaig with our trademark ‘peat reek’ matched by an additional layer of complexity and depth brought about by the fusion of the maturation styles and different oaks.",
     },
+    {
+      "id": 62, "name": "Arran Sherry Cask", "age": 3, "location": "Highland", "state": "Opened", isScotch: true, "abv": 55.8,
+      "nose": "Toffee, sweet spice and fruit",
+      "palate": "Ripe fig and cherries",
+      "finish": "Dark chocolate, Mandarins, Ripe figs.",
+      "description": "Matured in some of the finest casks available to the whisky industry, this cask strength Sherry matured Single Malt is both luxurious and elegant with layers of rich sweet spice and oak. Our Master Distiller has worked with producers in some of the most prestigious Sherry Bodegas in Jerez, Spain to select only the best quality casks to be filled with our precious spirit.<br />This bottling is a return to the style of some of the earliest Arran Single Malt, which was mostly matured in Sherry Casks. During a tasting, this expression is the perfect partner to our Quarter Cask 'The Bothy' as it showcases the skill and expertise of our Master Distiller in his work with different wood types and supreme cask selection.",
+    },
   ]
 };
 
